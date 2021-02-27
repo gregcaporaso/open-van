@@ -118,14 +118,14 @@ Fuse block mounts really nicely on the front of the GZ battery compartment with 
 ---
 name: fuse-block-1
 ---
-12V fuse block, not fully wired. Labeling the wires with a Sharpie is helpful when routing wires, and to facilitate future maintenance that might require disconnecting wires from fuse block. 
+12V fuse block, not fully wired. The fuse block cover is on the right. Labeling the wires with a Sharpie is helpful when routing wires, and to facilitate future maintenance that might require disconnecting wires from fuse block. 
 ```
 
 ```{figure} images/fuse-block-2.jpeg
 ---
 name: fuse-block-2
 ---
-12V fuse block velcro'ed to GZ.
+12V fuse block velcro'ed to GZ. The fuse block cover is off in this photo.
 ```
 
 
