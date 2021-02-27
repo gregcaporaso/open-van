@@ -168,8 +168,8 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#charge-source">
-   Charge source
+  <a class="reference internal nav-link" href="#inputs-how-we-charge-this-thing">
+   Inputs (how we charge this thing)
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -224,23 +224,26 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#v-system">
-   12V system
+  <a class="reference internal nav-link" href="#outputs-how-we-discharge-this-thing">
+   Outputs (how we discharge this thing)
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#inverter-120v-ac-system">
-   Inverter (120V
-   <strong>
-    ?
-   </strong>
-   AC system)
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#exterior-lighting">
-   Exterior lighting
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#v-system">
+     12V system
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#v-ac-inverter">
+     120V AC Inverter
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#exterior-lighting">
+     Exterior lighting
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -257,8 +260,8 @@
 <h1>Goal Zero-based second battery system<a class="headerlink" href="#goal-zero-based-second-battery-system" title="Permalink to this headline">¶</a></h1>
 <p>We use a <a class="reference external" href="https://amzn.to/3bpxnqB">Goal Zero Yeti 3000X</a> to run our 12V system and our inverters. We can charge this by solar, shore power, or from the vehicle’s alternator while the vehicle is running. The benefit of this system for us is that it is largely all-in-one: it <em>may</em> cost more than designing and building a custom system, but for us when we factored our time into the project costs, the all-in-one system made sense.</p>
 <p>I still learned a lot about these systems from <a class="reference external" href="http://faroutride.com">faroutride.com</a>, and I bought their</p>
-<div class="section" id="charge-source">
-<h2>Charge source<a class="headerlink" href="#charge-source" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="inputs-how-we-charge-this-thing">
+<h2>Inputs (how we charge this thing)<a class="headerlink" href="#inputs-how-we-charge-this-thing" title="Permalink to this headline">¶</a></h2>
 <p>We can charge this by solar with the <a class="reference external" href="https://amzn.to/37ygdWH">Goal Zero 200W solar panels</a>; using shore power; or using the vehicle alternator using the vehicle integration kit (waiting on link for this that is compatible with the 3000X, <strong>a safety modification was made for the X series, so do not buy or use older versions of this hardware!</strong>).</p>
 <div class="section" id="alternator-based-charging">
 <h3>Alternator-based charging<a class="headerlink" href="#alternator-based-charging" title="Permalink to this headline">¶</a></h3>
@@ -316,20 +319,85 @@
 </div>
 <div class="section" id="shore-power">
 <h3>Shore power<a class="headerlink" href="#shore-power" title="Permalink to this headline">¶</a></h3>
+<p>One inlet splits to two outlets:</p>
+<ul class="simple">
+<li><p>Shore outlet 1 (SO1): Goal Zero AC charging</p></li>
+<li><p>Shore outlet 2 (S02):</p>
+<ul>
+<li><p>Cabin shore outlet 1:</p>
+<ul>
+<li><p>Cabin shore outlet 2</p></li>
+<li><p>Fridge</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 </div>
 <div class="section" id="solar">
 <h3>Solar<a class="headerlink" href="#solar" title="Permalink to this headline">¶</a></h3>
+<p>Not installed yet, but connects directly to GZ</p>
 </div>
 </div>
+<div class="section" id="outputs-how-we-discharge-this-thing">
+<h2>Outputs (how we discharge this thing)<a class="headerlink" href="#outputs-how-we-discharge-this-thing" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="v-system">
-<h2>12V system<a class="headerlink" href="#v-system" title="Permalink to this headline">¶</a></h2>
+<h3>12V system<a class="headerlink" href="#v-system" title="Permalink to this headline">¶</a></h3>
+<p>Parts:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://amzn.to/3bCADis">Ring terminals to Anderson connections</a> - connects fusebox to GZ</p></li>
+<li><p><a class="reference external" href="https://amzn.to/2Mzpjvg">Fuse block</a></p></li>
+<li><p><a class="reference external" href="https://amzn.to/3bJa3V8">Fuse kit</a></p></li>
+<li><p>12V DC loads (see <a class="reference external" href="https://faroutride.com/van-build/learn/electrical-system/">https://faroutride.com/van-build/learn/electrical-system/</a>)</p></li>
+<li><p>Fridge: we have a <a class="reference external" href="https://www.novakool.com/">Nova Kool</a> <a class="reference external" href="https://www.novakool.com/r3100-1">R3100</a> AC/DC - it runs great from the GZ, we couldn’t be happier with it</p></li>
+</ul>
+<p>12V fuse block (<a class="reference internal" href="#fuse-block-1"><span class="std std-numref">Fig. 6</span></a>) - numbers are etched down center of fuse block, they run left-to-right, top-to-bottom</p>
+<ol class="simple">
+<li><p>Ceiling vent fan (15A fuse - is this too high?)</p></li>
+<li><p>Ceiling LEDs (runs into header from behind fridge)</p></li>
+<li><p>Driver-side (i.e., kitchen) 12V outlet (15A fuse)</p></li>
+<li><p>Currently unused</p></li>
+<li><p>Passenger-side header (one 12V outlet, small fan - 5A fuse, may turn out to be too small)</p></li>
+<li><p>Currently unused</p></li>
+<li><p>Toilet fan (5A fuse - probably too big)</p></li>
+<li><p>Currently unused</p></li>
+<li><p>Passenger-side outlet (splits to mutli-outlet charging station - 15A)</p></li>
+<li><p>Currently unused</p></li>
+<li><p>Fridge (15A)</p></li>
+<li><p>Currently unused</p></li>
+</ol>
+<p>Fuse block mounts really nicely on the front of the GZ battery compartment with velcro (<a class="reference internal" href="#fuse-block-2"><span class="std std-numref">Fig. 7</span></a>). If you want to mount it somewhere else, you’ll need longer Anderson connection wires. I can’t really think of a reason I’d want to mount the fuse block somewhere else though.</p>
+<div class="figure align-default" id="fuse-block-1">
+<img alt="_images/fuse-block-1.jpeg" src="_images/fuse-block-1.jpeg" />
+<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">12V fuse block, not fully wired. Labeling the wires with a Sharpie is helpful when routing wires, and to facilitate future maintenance that might require disconnecting wires from fuse block.</span><a class="headerlink" href="#fuse-block-1" title="Permalink to this image">¶</a></p>
 </div>
-<div class="section" id="inverter-120v-ac-system">
-<h2>Inverter (120V <strong>?</strong> AC system)<a class="headerlink" href="#inverter-120v-ac-system" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-default" id="fuse-block-2">
+<img alt="_images/fuse-block-2.jpeg" src="_images/fuse-block-2.jpeg" />
+<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">12V fuse block velcro’ed to GZ.</span><a class="headerlink" href="#fuse-block-2" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="v-ac-inverter">
+<h3>120V AC Inverter<a class="headerlink" href="#v-ac-inverter" title="Permalink to this headline">¶</a></h3>
+<p>Two GZ outlets:</p>
+<ul class="simple">
+<li><p>GZAC1:</p>
+<ul>
+<li><p>Kitchen outlet</p></li>
+<li><p>GZ AC2:</p>
+<ul>
+<li><p>Device cabinet outlet 1</p></li>
+<li><p>Device cabinet outlet 2</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>GZAC2 outlet</p></li>
+</ul>
 </div>
 <div class="section" id="exterior-lighting">
-<h2>Exterior lighting<a class="headerlink" href="#exterior-lighting" title="Permalink to this headline">¶</a></h2>
+<h3>Exterior lighting<a class="headerlink" href="#exterior-lighting" title="Permalink to this headline">¶</a></h3>
 <p>We’re going to experiment with the <a class="reference external" href="https://amzn.to/2NHvJbZ">Goal Zero Light-A-Life 350 LED Lights</a> for outdoor lighting. These are nice little lights, and we used them for internal lights before installing our recessed lights (they’re a little clunky for interior use, but they are versatile with hanging and magnetic options for mounting and two brightness levels). They also chain together, which is convenient. We’d like to be able to connect these through a port of some sort on the outside of the van - I’ll update if I figure that out.</p>
+</div>
 </div>
 </div>
 

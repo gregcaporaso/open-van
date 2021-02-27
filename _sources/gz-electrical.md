@@ -4,7 +4,7 @@ We use a [Goal Zero Yeti 3000X](https://amzn.to/3bpxnqB) to run our 12V system a
 
 I still learned a lot about these systems from faroutride.com, and I bought their 
 
-## Charge source
+## Inputs (how we charge this thing)
 We can charge this by solar with the [Goal Zero 200W solar panels](https://amzn.to/37ygdWH); using shore power; or using the vehicle alternator using the vehicle integration kit (waiting on link for this that is compatible with the 3000X, **a safety modification was made for the X series, so do not buy or use older versions of this hardware!**). 
 
 ### Alternator-based charging
@@ -76,13 +76,70 @@ The battery compartment after putting it all back together. Note that the cable 
 
 ### Shore power
 
+One inlet splits to two outlets:
+ - Shore outlet 1 (SO1): Goal Zero AC charging
+ - Shore outlet 2 (S02): 
+    - Cabin shore outlet 1:
+        - Cabin shore outlet 2
+        - Fridge
+
 ### Solar
 
-## 12V system
+Not installed yet, but connects directly to GZ
 
-## Inverter (120V **?** AC system)
+## Outputs (how we discharge this thing)
 
-## Exterior lighting
+### 12V system
+
+Parts:
+ - [Ring terminals to Anderson connections](https://amzn.to/3bCADis) - connects fusebox to GZ
+ - [Fuse block](https://amzn.to/2Mzpjvg)
+ - [Fuse kit](https://amzn.to/3bJa3V8)
+  - 12V DC loads (see https://faroutride.com/van-build/learn/electrical-system/)
+  - Fridge: we have a [Nova Kool](https://www.novakool.com/) [R3100](https://www.novakool.com/r3100-1) AC/DC - it runs great from the GZ, we couldn't be happier with it
+
+12V fuse block ({numref}`fuse-block-1`) - numbers are etched down center of fuse block, they run left-to-right, top-to-bottom
+ 1. Ceiling vent fan (15A fuse - is this too high?)
+ 2. Ceiling LEDs (runs into header from behind fridge)
+ 3. Driver-side (i.e., kitchen) 12V outlet (15A fuse)
+ 4. Currently unused
+ 5. Passenger-side header (one 12V outlet, small fan - 5A fuse, may turn out to be too small) 
+ 6. Currently unused
+ 7. Toilet fan (5A fuse - probably too big)
+ 8. Currently unused
+ 9. Passenger-side outlet (splits to mutli-outlet charging station - 15A)
+ 10. Currently unused
+ 11. Fridge (15A)
+ 12. Currently unused
+
+Fuse block mounts really nicely on the front of the GZ battery compartment with velcro ({numref}`fuse-block-2`). If you want to mount it somewhere else, you'll need longer Anderson connection wires. I can't really think of a reason I'd want to mount the fuse block somewhere else though. 
+
+```{figure} images/fuse-block-1.jpeg
+---
+name: fuse-block-1
+---
+12V fuse block, not fully wired. Labeling the wires with a Sharpie is helpful when routing wires, and to facilitate future maintenance that might require disconnecting wires from fuse block. 
+```
+
+```{figure} images/fuse-block-2.jpeg
+---
+name: fuse-block-2
+---
+12V fuse block velcro'ed to GZ.
+```
+
+
+### 120V AC Inverter
+Two GZ outlets:
+ - GZAC1: 
+    - Kitchen outlet
+    - GZ AC2:
+        - Device cabinet outlet 1
+        - Device cabinet outlet 2
+ - GZAC2 outlet
+    
+
+### Exterior lighting
 We’re going to experiment with the [Goal Zero Light-A-Life 350 LED Lights](https://amzn.to/2NHvJbZ) for outdoor lighting. These are nice little lights, and we used them for internal lights before installing our recessed lights (they’re a little clunky for interior use, but they are versatile with hanging and magnetic options for mounting and two brightness levels). They also chain together, which is convenient. We’d like to be able to connect these through a port of some sort on the outside of the van - I’ll update if I figure that out. 
 
 
