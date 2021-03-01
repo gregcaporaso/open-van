@@ -1,18 +1,31 @@
 # Goal Zero-based second battery system
 
-We use a [Goal Zero Yeti 3000X](https://amzn.to/3bpxnqB) to run our 12V system and our inverters. We can charge this by solar, shore power, or from the vehicle’s alternator while the vehicle is running. The benefit of this system for us is that it is largely all-in-one: it _may_ cost more than designing and building a custom system, but for us when we factored our time into the project costs, the all-in-one system made sense. 
+```{figure} images/installed-gz-1.jpeg
+---
+name: installed-gz-1
+---
+The "finished" project (as if any van project is ever finished). 
+```
 
-I still learned a lot about these systems from faroutride.com, and I bought their 
+We use a [Goal Zero Yeti 3000X](https://amzn.to/3bpxnqB) to run our 12V system and our inverters ({numref}`installed-gz-1`). We can charge this by solar, shore power, or from the vehicle’s alternator while the vehicle is running. The benefit of this system for us is that it is largely all-in-one: the cost now seems relatively similar to designing and building a custom system. When we factor our time into the project costs, the all-in-one system makes a lot of sense to us. 
+
+I still learned a lot about these systems from faroutride.com. I bought their [Wiring Guide and Tutorial](https://faroutride.com/store/wiring-diagram/) and learned a lot from it. Well worth the money (especially considered how much time and money they saved me on other projects).
+
+```{tableofcontents}
+```
 
 ## Inputs (how we charge this thing)
-We can charge this by solar with the [Goal Zero 200W solar panels](https://amzn.to/37ygdWH); using shore power; or using the vehicle alternator using the vehicle integration kit (waiting on link for this that is compatible with the 3000X, **a safety modification was made for the X series, so do not buy or use older versions of this hardware!**). 
+We can charge this by solar with the [Goal Zero 200W solar panels](https://amzn.to/37ygdWH); using shore power; or using the vehicle alternator using the vehicle integration kit (waiting on link for this that is compatible with the 3000X. 
+
+```{warning}
+A safety modification was made to the vehicle integration kit for the X series. Do not buy or use older versions of this hardware!
+```
 
 ### Alternator-based charging
+
 Parts:
 * [Male EC8 to Ring Terminal](https://www.goalzero.com/shop/power-station-accessories/male-ec8-ring-terminal/)
-* 
-
-
+* [EC8 12FT Extension Cable](https://www.goalzero.com/shop/accessories/ec8-12ft-extension-cable/)
 
 #### Remove seat to access the battery compartment
 The battery is installed under the driver’s seat. Unusual, but it fits well, so I can’t complain. 
@@ -74,7 +87,16 @@ name: battery-compartment-1
 The battery compartment after putting it all back together. Note that the cable for our wire harness comes through a new custom hole in the top of our plastic battery cover to allow for the Scopema driver swivel. If you don't have a driver swivel, you won't need to route your wiring harness this way.
 ```
 
+Once it's all back together, you can connect the EC8 12FT Extension Cable from the outside of the battery compartment. 🎉
+
 ### Shore power
+
+```{figure} images/inlet-1.jpeg
+---
+name: inlet-1
+---
+The inlet allows us to charge from shore power by plugging into a typical 120V AC outlet (e.g., at home, a campgound, etc). See faroutride.com for install instructions.
+```
 
 One inlet splits to two outlets:
  - Shore outlet 1 (SO1): Goal Zero AC charging
@@ -85,7 +107,7 @@ One inlet splits to two outlets:
 
 ### Solar
 
-Not installed yet, but connects directly to GZ
+Not installed yet, but connects directly to GZ. We'll be installing a roof rack and mounting solar on that.
 
 ## Outputs (how we discharge this thing)
 
@@ -128,6 +150,23 @@ name: fuse-block-2
 12V fuse block velcro'ed to GZ. The fuse block cover is off in this photo.
 ```
 
+#### 12V System Loads
+
+These photos give an idea of how I did the wiring in the header. Use a box cutter with a brand new blade to make cutouts for fixtures. Pull the whole headliner out to work on if you have enough space. I have a rolling 4'x8' workbench in my wood shop, which is convenient for work on this. Alteratively, a couple of saw horses with two 8 foot 2"x4"s should support it well too. Or just work on one section at a time.
+
+```{figure} images/12v-loads-1.jpeg
+---
+name: 12v-loads-1
+---
+
+```
+
+```{figure} images/12v-loads-2.jpeg
+---
+name: 12v-loads-2
+---
+
+```
 
 ### 120V AC Inverter
 Two GZ outlets:

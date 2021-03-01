@@ -26,7 +26,7 @@
 
     
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.37f24b989f4638ff9c27c22dc7559d4f.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -44,7 +44,7 @@
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script src="_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -114,21 +114,21 @@
           
 <main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
             class="fas fa-download"></i></button>
@@ -146,22 +146,22 @@
     </div>
 </div>
 
-        <!-- Source interaction buttons -->
+            <!-- Source interaction buttons -->
 
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                title="Fullscreen mode"><i
-                    class="fas fa-expand"></i></button></a>
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
 
-        <!-- Launch buttons -->
+            <!-- Launch buttons -->
 
-    </div>
+        </div>
 
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
         <div class="tocsection onthispage pt-5 pb-3">
             <i class="fas fa-list"></i> Contents
         </div>
@@ -232,6 +232,13 @@
     <a class="reference internal nav-link" href="#v-system">
      12V system
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#v-system-loads">
+       12V System Loads
+      </a>
+     </li>
+    </ul>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#v-ac-inverter">
@@ -249,6 +256,7 @@
 
         </nav>
         
+        </div>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -258,25 +266,35 @@
                 
   <div class="section" id="goal-zero-based-second-battery-system">
 <h1>Goal Zero-based second battery system<a class="headerlink" href="#goal-zero-based-second-battery-system" title="Permalink to this headline">¶</a></h1>
-<p>We use a <a class="reference external" href="https://amzn.to/3bpxnqB">Goal Zero Yeti 3000X</a> to run our 12V system and our inverters. We can charge this by solar, shore power, or from the vehicle’s alternator while the vehicle is running. The benefit of this system for us is that it is largely all-in-one: it <em>may</em> cost more than designing and building a custom system, but for us when we factored our time into the project costs, the all-in-one system made sense.</p>
-<p>I still learned a lot about these systems from <a class="reference external" href="http://faroutride.com">faroutride.com</a>, and I bought their</p>
+<div class="figure align-default" id="installed-gz-1">
+<img alt="_images/installed-gz-1.jpeg" src="_images/installed-gz-1.jpeg" />
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">The “finished” project (as if any van project is ever finished).</span><a class="headerlink" href="#installed-gz-1" title="Permalink to this image">¶</a></p>
+</div>
+<p>We use a <a class="reference external" href="https://amzn.to/3bpxnqB">Goal Zero Yeti 3000X</a> to run our 12V system and our inverters (<a class="reference internal" href="#installed-gz-1"><span class="std std-numref">Fig. 1</span></a>). We can charge this by solar, shore power, or from the vehicle’s alternator while the vehicle is running. The benefit of this system for us is that it is largely all-in-one: the cost now seems relatively similar to designing and building a custom system. When we factor our time into the project costs, the all-in-one system makes a lot of sense to us.</p>
+<p>I still learned a lot about these systems from <a class="reference external" href="http://faroutride.com">faroutride.com</a>. I bought their <a class="reference external" href="https://faroutride.com/store/wiring-diagram/">Wiring Guide and Tutorial</a> and learned a lot from it. Well worth the money (especially considered how much time and money they saved me on other projects).</p>
+<div class="tableofcontents-wrapper compound">
+</div>
 <div class="section" id="inputs-how-we-charge-this-thing">
 <h2>Inputs (how we charge this thing)<a class="headerlink" href="#inputs-how-we-charge-this-thing" title="Permalink to this headline">¶</a></h2>
-<p>We can charge this by solar with the <a class="reference external" href="https://amzn.to/37ygdWH">Goal Zero 200W solar panels</a>; using shore power; or using the vehicle alternator using the vehicle integration kit (waiting on link for this that is compatible with the 3000X, <strong>a safety modification was made for the X series, so do not buy or use older versions of this hardware!</strong>).</p>
+<p>We can charge this by solar with the <a class="reference external" href="https://amzn.to/37ygdWH">Goal Zero 200W solar panels</a>; using shore power; or using the vehicle alternator using the vehicle integration kit (waiting on link for this that is compatible with the 3000X.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>A safety modification was made to the vehicle integration kit for the X series. Do not buy or use older versions of this hardware!</p>
+</div>
 <div class="section" id="alternator-based-charging">
 <h3>Alternator-based charging<a class="headerlink" href="#alternator-based-charging" title="Permalink to this headline">¶</a></h3>
 <p>Parts:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.goalzero.com/shop/power-station-accessories/male-ec8-ring-terminal/">Male EC8 to Ring Terminal</a></p></li>
-<li></li>
+<li><p><a class="reference external" href="https://www.goalzero.com/shop/accessories/ec8-12ft-extension-cable/">EC8 12FT Extension Cable</a></p></li>
 </ul>
 <div class="section" id="remove-seat-to-access-the-battery-compartment">
 <h4>Remove seat to access the battery compartment<a class="headerlink" href="#remove-seat-to-access-the-battery-compartment" title="Permalink to this headline">¶</a></h4>
 <p>The battery is installed under the driver’s seat. Unusual, but it fits well, so I can’t complain.</p>
-<p><strong>Before removing the seat, unplug the wiring harness under the seat from the front.</strong> One #7 hex head screw holds the wiring harness in place under the driver seat. Unscrew that to loosen and unplug the wire harness (the screw shouldn’t come all the way out; <a class="reference internal" href="#wire-harness-1"><span class="std std-numref">Fig. 1</span></a>).</p>
+<p><strong>Before removing the seat, unplug the wiring harness under the seat from the front.</strong> One #7 hex head screw holds the wiring harness in place under the driver seat. Unscrew that to loosen and unplug the wire harness (the screw shouldn’t come all the way out; <a class="reference internal" href="#wire-harness-1"><span class="std std-numref">Fig. 2</span></a>).</p>
 <div class="figure align-default" id="wire-harness-1">
 <img alt="_images/wire-harness-1.jpeg" src="_images/wire-harness-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">View of driver seat wire harness after detaching.</span><a class="headerlink" href="#wire-harness-1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">View of driver seat wire harness after detaching.</span><a class="headerlink" href="#wire-harness-1" title="Permalink to this image">¶</a></p>
 </div>
 <p>We have a swivel base installed. See the <a class="reference external" href="https://faroutride.com/swivels-review/">faroutride.com swivel seat review</a> to learn more about these (we have Scopema swivels on the driver and passenger seats and we love them). Ideally you would connect your Goal Zero to the battery while doing the driver swivel seat install, but we were waiting on the 3000X-compatible vehicle integration kit to be developed when we installed the driver swivel. Easy enough to remove the swivel though - this will be the same thing we need to do any time we access the vehicle battery directly (remember that there are jump start terminals under the hood).</p>
 <div class="section" id="factory-configuration">
@@ -285,10 +303,10 @@
 </div>
 <div class="section" id="scopema-swivel-base-congifuration">
 <h5>Scopema swivel base congifuration<a class="headerlink" href="#scopema-swivel-base-congifuration" title="Permalink to this headline">¶</a></h5>
-<p>The swivel base stays with the seat when you take it off. Four 3/16” Allen bolts are used to remove the swivel base to access the battery compartment (<a class="reference internal" href="#scopema-screw-1"><span class="std std-numref">Fig. 2</span></a>). (If you have a passenger swivel installed already, it makes working on the battery compartment very convenient b/c you’ll have a nice spot to sit while you’re working.)</p>
+<p>The swivel base stays with the seat when you take it off. Four 3/16” Allen bolts are used to remove the swivel base to access the battery compartment (<a class="reference internal" href="#scopema-screw-1"><span class="std std-numref">Fig. 3</span></a>). (If you have a passenger swivel installed already, it makes working on the battery compartment very convenient b/c you’ll have a nice spot to sit while you’re working.)</p>
 <div class="figure align-default" id="scopema-screw-1">
 <img alt="_images/scopema-screw-1.jpeg" src="_images/scopema-screw-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">One of the four screws that you’ll need to remove to deattach the Scopema driver swivel to access the battery.</span><a class="headerlink" href="#scopema-screw-1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">One of the four screws that you’ll need to remove to deattach the Scopema driver swivel to access the battery.</span><a class="headerlink" href="#scopema-screw-1" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="other-swivel-base-configurations">
@@ -301,24 +319,29 @@
 <p>First, route the cable. I drilled a 1/2” hole through the rear plastic cover. Drill this hole from inside the battery compartment (or risk drilling into the metal framing). To pass the connector rings through, you’ll need to widen the hold a little after drilling - do that with a file, or just make a second hole. A bigger initial hole won’t fit (at least where I made it) due to the metal framing. Run the wire through the hole.</p>
 <div class="figure align-default" id="gz-battery-wire-port-1">
 <img alt="_images/gz-battery-wire-port-1.jpeg" src="_images/gz-battery-wire-port-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">New port for routing <a class="reference external" href="https://www.goalzero.com/shop/power-station-accessories/male-ec8-ring-terminal/">Male EC8 to Ring Terminal</a>.</span><a class="headerlink" href="#gz-battery-wire-port-1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">New port for routing <a class="reference external" href="https://www.goalzero.com/shop/power-station-accessories/male-ec8-ring-terminal/">Male EC8 to Ring Terminal</a>.</span><a class="headerlink" href="#gz-battery-wire-port-1" title="Permalink to this image">¶</a></p>
 </div>
-<p>Remove the #10 hex head nuts to connect rings to battery terminals (<a class="reference internal" href="#battery-terminal-1"><span class="std std-numref">Fig. 4</span></a>). Do this one terminal at a time, starting with the negative terminal. Obviously, be very careful when accessing the positive terminal in particular. If you create a path between the positive and negative terminals - especially if that path runs  up one arm and down the other with your heart in the middle - you’ll be sorry.</p>
+<p>Remove the #10 hex head nuts to connect rings to battery terminals (<a class="reference internal" href="#battery-terminal-1"><span class="std std-numref">Fig. 5</span></a>). Do this one terminal at a time, starting with the negative terminal. Obviously, be very careful when accessing the positive terminal in particular. If you create a path between the positive and negative terminals - especially if that path runs  up one arm and down the other with your heart in the middle - you’ll be sorry.</p>
 <div class="figure align-default" id="battery-terminal-1">
 <img alt="_images/battery-terminal-1.jpeg" src="_images/battery-terminal-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Negative battery terminal with ring connected.</span><a class="headerlink" href="#battery-terminal-1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">Negative battery terminal with ring connected.</span><a class="headerlink" href="#battery-terminal-1" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="put-it-all-back-together">
 <h4>Put it all back together<a class="headerlink" href="#put-it-all-back-together" title="Permalink to this headline">¶</a></h4>
 <div class="figure align-default" id="battery-compartment-1">
 <img alt="_images/battery-compartment-1.jpeg" src="_images/battery-compartment-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">The battery compartment after putting it all back together. Note that the cable for our wire harness comes through a new custom hole in the top of our plastic battery cover to allow for the Scopema driver swivel. If you don’t have a driver swivel, you won’t need to route your wiring harness this way.</span><a class="headerlink" href="#battery-compartment-1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">The battery compartment after putting it all back together. Note that the cable for our wire harness comes through a new custom hole in the top of our plastic battery cover to allow for the Scopema driver swivel. If you don’t have a driver swivel, you won’t need to route your wiring harness this way.</span><a class="headerlink" href="#battery-compartment-1" title="Permalink to this image">¶</a></p>
 </div>
+<p>Once it’s all back together, you can connect the EC8 12FT Extension Cable from the outside of the battery compartment. 🎉</p>
 </div>
 </div>
 <div class="section" id="shore-power">
 <h3>Shore power<a class="headerlink" href="#shore-power" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-default" id="inlet-1">
+<img alt="_images/inlet-1.jpeg" src="_images/inlet-1.jpeg" />
+<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">The inlet allows us to charge from shore power by plugging into a typical 120V AC outlet (e.g., at home, a campgound, etc). See <a class="reference external" href="http://faroutride.com">faroutride.com</a> for install instructions.</span><a class="headerlink" href="#inlet-1" title="Permalink to this image">¶</a></p>
+</div>
 <p>One inlet splits to two outlets:</p>
 <ul class="simple">
 <li><p>Shore outlet 1 (SO1): Goal Zero AC charging</p></li>
@@ -336,7 +359,7 @@
 </div>
 <div class="section" id="solar">
 <h3>Solar<a class="headerlink" href="#solar" title="Permalink to this headline">¶</a></h3>
-<p>Not installed yet, but connects directly to GZ</p>
+<p>Not installed yet, but connects directly to GZ. We’ll be installing a roof rack and mounting solar on that.</p>
 </div>
 </div>
 <div class="section" id="outputs-how-we-discharge-this-thing">
@@ -351,7 +374,7 @@
 <li><p>12V DC loads (see <a class="reference external" href="https://faroutride.com/van-build/learn/electrical-system/">https://faroutride.com/van-build/learn/electrical-system/</a>)</p></li>
 <li><p>Fridge: we have a <a class="reference external" href="https://www.novakool.com/">Nova Kool</a> <a class="reference external" href="https://www.novakool.com/r3100-1">R3100</a> AC/DC - it runs great from the GZ, we couldn’t be happier with it</p></li>
 </ul>
-<p>12V fuse block (<a class="reference internal" href="#fuse-block-1"><span class="std std-numref">Fig. 6</span></a>) - numbers are etched down center of fuse block, they run left-to-right, top-to-bottom</p>
+<p>12V fuse block (<a class="reference internal" href="#fuse-block-1"><span class="std std-numref">Fig. 8</span></a>) - numbers are etched down center of fuse block, they run left-to-right, top-to-bottom</p>
 <ol class="simple">
 <li><p>Ceiling vent fan (15A fuse - is this too high?)</p></li>
 <li><p>Ceiling LEDs (runs into header from behind fridge)</p></li>
@@ -366,14 +389,24 @@
 <li><p>Fridge (15A)</p></li>
 <li><p>Currently unused</p></li>
 </ol>
-<p>Fuse block mounts really nicely on the front of the GZ battery compartment with velcro (<a class="reference internal" href="#fuse-block-2"><span class="std std-numref">Fig. 7</span></a>). If you want to mount it somewhere else, you’ll need longer Anderson connection wires. I can’t really think of a reason I’d want to mount the fuse block somewhere else though.</p>
+<p>Fuse block mounts really nicely on the front of the GZ battery compartment with velcro (<a class="reference internal" href="#fuse-block-2"><span class="std std-numref">Fig. 9</span></a>). If you want to mount it somewhere else, you’ll need longer Anderson connection wires. I can’t really think of a reason I’d want to mount the fuse block somewhere else though.</p>
 <div class="figure align-default" id="fuse-block-1">
 <img alt="_images/fuse-block-1.jpeg" src="_images/fuse-block-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">12V fuse block, not fully wired. The fuse block cover is on the right. Labeling the wires with a Sharpie is helpful when routing wires, and to facilitate future maintenance that might require disconnecting wires from fuse block.</span><a class="headerlink" href="#fuse-block-1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">12V fuse block, not fully wired. The fuse block cover is on the right. Labeling the wires with a Sharpie is helpful when routing wires, and to facilitate future maintenance that might require disconnecting wires from fuse block.</span><a class="headerlink" href="#fuse-block-1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-default" id="fuse-block-2">
 <img alt="_images/fuse-block-2.jpeg" src="_images/fuse-block-2.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">12V fuse block velcro’ed to GZ. The fuse block cover is off in this photo.</span><a class="headerlink" href="#fuse-block-2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 9 </span><span class="caption-text">12V fuse block velcro’ed to GZ. The fuse block cover is off in this photo.</span><a class="headerlink" href="#fuse-block-2" title="Permalink to this image">¶</a></p>
+</div>
+<div class="section" id="v-system-loads">
+<h4>12V System Loads<a class="headerlink" href="#v-system-loads" title="Permalink to this headline">¶</a></h4>
+<p>These photos give an idea of how I did the wiring in the header. Use a box cutter with a brand new blade to make cutouts for fixtures. Pull the whole headliner out to work on if you have enough space. I have a rolling 4’x8’ workbench in my wood shop, which is convenient for work on this. Alteratively, a couple of saw horses with two 8 foot 2”x4”s should support it well too. Or just work on one section at a time.</p>
+<div class="figure align-default" id="v-loads-1">
+<img alt="_images/12v-loads-1.jpeg" src="_images/12v-loads-1.jpeg" />
+</div>
+<div class="figure align-default" id="v-loads-2">
+<img alt="_images/12v-loads-2.jpeg" src="_images/12v-loads-2.jpeg" />
+</div>
 </div>
 </div>
 <div class="section" id="v-ac-inverter">
@@ -423,14 +456,14 @@
 
               </div>
               
-        </div>
-    </div>
-    
-    
-    <div class='prev-next-bottom'>
         
+        <div class='prev-next-bottom'>
+            
     <a class='left-prev' id="prev-link" href="intro.html" title="previous page">Open Van</a>
 
+        </div>
+        
+        </div>
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
