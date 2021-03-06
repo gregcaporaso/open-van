@@ -205,6 +205,33 @@ Two GZ outlets:
 ### Exterior lighting
 We’re going to experiment with the [Goal Zero Light-A-Life 350 LED Lights](https://amzn.to/2NHvJbZ) for outdoor lighting. These are nice little lights, and we used them for internal lights before installing our recessed lights (they’re a little clunky for interior use, but they are versatile with hanging and magnetic options for mounting and two brightness levels). They also chain together, which is convenient. We’d like to be able to connect these through a port of some sort on the outside of the van, maybe when we run wires for the solar. I’ll update this if I figure that out, and once we have a little more experience with these lights.
 
+## Mounting
+
+We mounted the GZ to its 3/4" plywood shelf by using the nuts built-in to the bottom of the GZ unit. I first figured out the hole pattern on a piece of scrap wood, and then used that as a template for the drilling the holes on the final shelf. Here's a couple of views of the unit mounted to the scrap wood. 
+
+```{figure} images/gz-mount-1.jpeg
+---
+name: gz-mount-1
+---
+GZ mounted to work cart (side-view). 
+```
+
+```{figure} images/gz-mount-2.jpeg
+---
+name: gz-mount-2
+---
+GZ mounted to work cart (bottom-view). The eye bolts let me tie it down if needed. 
+```
+
+I also put some casters on the scrap wood to make a little cart for the unit to use while I was doing the install. This unit is heavy so I found it convenient to have a little cart for it. Plus it made me feel like I had a little droid to hang out with while I working, so that's a bonus. I had the casters on-hand already, and had already drilled the holes to test my hole pattern. I wouldn't have built this cart just for its own purpose, but I'm glad I have it.
+
+```{figure} images/gz-mount-3.jpeg
+---
+name: gz-mount-3
+---
+GZ-PO (i.e., GZ mounted to work cart). 
+```
+
 ## System controls
 
 You can connnect to the GZ by wifi or bluetooth with the GZ app. It seems to work reasonably well so far. This allows you to monitor input and loads, as well as turn systems on and off. Pretty cool! 
