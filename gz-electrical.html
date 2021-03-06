@@ -252,6 +252,11 @@
    </li>
   </ul>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#system-controls">
+   System controls
+  </a>
+ </li>
 </ul>
 
         </nav>
@@ -271,13 +276,11 @@
 <p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">The “finished” project (as if any van project is ever finished).</span><a class="headerlink" href="#installed-gz-1" title="Permalink to this image">¶</a></p>
 </div>
 <p>We use a <a class="reference external" href="https://amzn.to/3bpxnqB">Goal Zero Yeti 3000X</a> to run our 12V system and our inverters (<a class="reference internal" href="#installed-gz-1"><span class="std std-numref">Fig. 2</span></a>). We can charge this by solar, shore power, or from the vehicle’s alternator while the vehicle is running. A benefit of this system is that it is largely all-in-one.</p>
-<p>The cost now seems relatively similar to designing and building a custom system. When we factor our time into the project costs, the all-in-one system makes a lot of sense to us.</p>
-<p>I still learned a lot about these systems from <a class="reference external" href="http://faroutride.com">faroutride.com</a>. I bought their <a class="reference external" href="https://faroutride.com/store/wiring-diagram/">Wiring Guide and Tutorial</a> and learned a lot from it. Well worth the money (especially considered how much time and money they saved me on other projects).</p>
-<div class="tableofcontents-wrapper compound">
-</div>
+<p>The cost of these systems, as of fairly recently, seems to be relatively similar to designing and building a custom system. When we factored our time into the project costs, the all-in-one system made a lot of sense to us.</p>
+<p>I learned a lot about these systems from <a class="reference external" href="http://faroutride.com">faroutride.com</a>, even though their system is custom designed. I bought their <a class="reference external" href="https://faroutride.com/store/wiring-diagram/">Wiring Guide and Tutorial</a> and thought it was well worth the money (especially considering how much time and money they saved me on other projects).</p>
 <div class="section" id="inputs-how-we-charge-this-thing">
 <h2>Inputs (how we charge this thing)<a class="headerlink" href="#inputs-how-we-charge-this-thing" title="Permalink to this headline">¶</a></h2>
-<p>We can charge this by solar with the <a class="reference external" href="https://amzn.to/37ygdWH">Goal Zero 200W solar panels</a>; using shore power; or using the vehicle alternator using the vehicle integration kit (waiting on link for this that is compatible with the 3000X.</p>
+<p>We can charge this by solar, using shore power, or using the vehicle alternator using the vehicle integration kit. Details on each of these charging mechanisms (with the exception of solar - that’s not installed yet) are presented in the following subsections.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>A safety modification was made to the vehicle integration kit for the X series. Do not buy or use older versions of this hardware!</p>
@@ -339,28 +342,41 @@
 </div>
 <div class="section" id="shore-power">
 <h3>Shore power<a class="headerlink" href="#shore-power" title="Permalink to this headline">¶</a></h3>
+<p>Parts:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://amzn.to/3sVFdPU">Power inlet</a></p></li>
+<li><p><a class="reference external" href="https://amzn.to/3rqV2xN">Recessed Power Strip</a></p></li>
+</ul>
 <div class="figure align-default" id="inlet-1">
 <img alt="_images/inlet-1.jpeg" src="_images/inlet-1.jpeg" />
 <p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">The inlet allows us to charge from shore power by plugging into a typical 120V AC outlet (e.g., at home, a campgound, etc). See <a class="reference external" href="http://faroutride.com">faroutride.com</a> for install instructions.</span><a class="headerlink" href="#inlet-1" title="Permalink to this image">¶</a></p>
 </div>
+<p>The one inlet splits to two outlets.</p>
+<p>The first of these (SH1) we use to charge the GZ unit.</p>
+<p>To the second of these (SH2) I daisy-chained two recessed power strips. This gives us one outlet in our kitchen which provides the AC to the fridge and two outlets in our bed-side cabinet. (Our fridge connects to both our shore power system and our 12V system. When connected to shore power, the fridge will draw from that instead of from the 12V system.)</p>
 <p>One inlet splits to two outlets:</p>
-<ul class="simple">
-<li><p>Shore outlet 1 (SO1): Goal Zero AC charging</p></li>
-<li><p>Shore outlet 2 (S02):</p>
-<ul>
-<li><p>Cabin shore outlet 1:</p>
-<ul>
-<li><p>Cabin shore outlet 2</p></li>
-<li><p>Fridge</p></li>
-</ul>
+<ol class="simple">
+<li><p>Shore outlet 1 (SH1): Goal Zero AC charging</p></li>
+<li><p>Shore outlet 2 (SH2): Kitchen outlets</p>
+<ol class="simple">
+<li><p>Fridge AC power</p></li>
+<li><p>Bedside cabinet outlets (daisy-chained)</p>
+<ol class="simple">
+<li><p>Open</p></li>
+<li><p>Open</p></li>
+</ol>
 </li>
-</ul>
+</ol>
 </li>
-</ul>
+</ol>
 </div>
 <div class="section" id="solar">
 <h3>Solar<a class="headerlink" href="#solar" title="Permalink to this headline">¶</a></h3>
-<p>Not installed yet, but connects directly to GZ. We’ll be installing a roof rack and mounting solar on that.</p>
+<p>Parts:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://amzn.to/37ygdWH">Goal Zero 200W solar panels</a></p></li>
+</ul>
+<p>Not installed yet, but connects directly to GZ. We’ll be installing a roof rack and mounting solar on that. Right now I pull the solar panels out when I need to charge by solar. It’s miserable, and they are a huge pain to travel with when they’re not mounted. Mounting these will be my next project, once my project bank account recovers enough for me to buy a roof rack.</p>
 </div>
 </div>
 <div class="section" id="outputs-how-we-discharge-this-thing">
@@ -369,7 +385,7 @@
 <h3>12V system<a class="headerlink" href="#v-system" title="Permalink to this headline">¶</a></h3>
 <p>Parts:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://amzn.to/3bCADis">Ring terminals to Anderson connections</a> - connects fusebox to GZ</p></li>
+<li><p><a class="reference external" href="https://amzn.to/3bCADis">Ring terminals to Anderson connections</a> - connects fuseblock to GZ</p></li>
 <li><p><a class="reference external" href="https://amzn.to/2Mzpjvg">Fuse block</a></p></li>
 <li><p><a class="reference external" href="https://amzn.to/3bJa3V8">Fuse kit</a></p></li>
 <li><p>12V DC loads (see <a class="reference external" href="https://faroutride.com/van-build/learn/electrical-system/">https://faroutride.com/van-build/learn/electrical-system/</a>)</p></li>
@@ -390,18 +406,18 @@
 <li><p>Fridge (15A)</p></li>
 <li><p>Currently unused</p></li>
 </ol>
-<p>Fuse block mounts really nicely on the front of the GZ battery compartment with velcro (<a class="reference internal" href="#fuse-block-2"><span class="std std-numref">Fig. 10</span></a>). If you want to mount it somewhere else, you’ll need longer Anderson connection wires. I can’t really think of a reason I’d want to mount the fuse block somewhere else though.</p>
+<p>Fuse block mounts really nicely on the GZ battery compartment with velcro (<a class="reference internal" href="#fuse-block-2"><span class="std std-numref">Fig. 10</span></a>). If you want to mount it somewhere else, you’ll need longer Anderson connection wires.</p>
 <div class="figure align-default" id="fuse-block-1">
 <img alt="_images/fuse-block-1.jpeg" src="_images/fuse-block-1.jpeg" />
 <p class="caption"><span class="caption-number">Fig. 9 </span><span class="caption-text">12V fuse block, not fully wired. The fuse block cover is on the right. Labeling the wires with a Sharpie is helpful when routing wires, and to facilitate future maintenance that might require disconnecting wires from fuse block.</span><a class="headerlink" href="#fuse-block-1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-default" id="fuse-block-2">
 <img alt="_images/fuse-block-2.jpeg" src="_images/fuse-block-2.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 10 </span><span class="caption-text">12V fuse block velcro’ed to GZ. The fuse block cover is off in this photo.</span><a class="headerlink" href="#fuse-block-2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 10 </span><span class="caption-text">12V fuse block velcro’ed to GZ. (There’s some velcro on the front too - I used to have it mounted there, but the side ended up being more convenient for my final configuration.)</span><a class="headerlink" href="#fuse-block-2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="v-system-loads">
 <h4>12V System Loads<a class="headerlink" href="#v-system-loads" title="Permalink to this headline">¶</a></h4>
-<p>These photos give an idea of how I did the wiring in the header. Use a box cutter with a brand new blade to make cutouts for fixtures. Pull the whole headliner out to work on if you have enough space. I have a rolling 4’x8’ workbench in my wood shop, which is convenient for work on this. Alteratively, a couple of saw horses with two 8 foot 2”x4”s should support it well too. Or just work on one section at a time.</p>
+<p>These photos give an idea of how I did the wiring in the header. I used a box cutter with a brand new blade to make cutouts for fixtures. It worked great. Pull the whole headliner out to work on if you have enough space. I have a rolling 4’x8’ workbench in my wood shop, which is convenient for working on this. Alteratively, a couple of saw horses and two 8 or 12 foot 2”x4”s should support it well too. Or just work on one section at a time.</p>
 <div class="figure align-default" id="v-loads-1">
 <img alt="_images/12v-loads-1.jpeg" src="_images/12v-loads-1.jpeg" />
 </div>
@@ -412,25 +428,40 @@
 </div>
 <div class="section" id="v-ac-inverter">
 <h3>120V AC Inverter<a class="headerlink" href="#v-ac-inverter" title="Permalink to this headline">¶</a></h3>
-<p>Two GZ outlets:</p>
+<p>Parts:</p>
 <ul class="simple">
-<li><p>GZAC1:</p>
-<ul>
-<li><p>Kitchen outlet</p></li>
-<li><p>GZ AC2:</p>
-<ul>
-<li><p>Device cabinet outlet 1</p></li>
-<li><p>Device cabinet outlet 2</p></li>
+<li><p><a class="reference external" href="https://amzn.to/3rqV2xN">Recessed Power Strip</a></p></li>
+<li><p><a class="reference external" href="https://amzn.to/3sSwVZc">1L electric tea kettle</a> (this draws a lot of power, but it sure is nice to be able to make our first <a class="reference external" href="https://amzn.to/2PHc9xp">cup of coffee</a> of the day without turning our camp stove on!)</p></li>
 </ul>
+<p>There are two 120V AC outlets on the GZ unit.</p>
+<p>To the first of these (GZAC1), I daisy-chained two recessed power strips. This gives us one outlet in our kitchen cabinet and two outlets in our bed-side cabinet.</p>
+<p>I leave the second of these (GZAC2) open so I can connect loads directly to it when needed. This has been really convenient for powering tools while working on the build. s</p>
+<p>Two GZ outlets:</p>
+<ol class="simple">
+<li><p>GZAC1: Kitchen outlets</p>
+<ol class="simple">
+<li><p>Open (usually used for our tea kettle)</p></li>
+<li><p>Bedside cabinet outlets (daisy-chained)</p>
+<ol class="simple">
+<li><p>Open</p></li>
+<li><p>Open</p></li>
+</ol>
 </li>
-</ul>
+</ol>
 </li>
-<li><p>GZAC2 outlet</p></li>
-</ul>
+<li><p>GZAC2: open</p></li>
+</ol>
 </div>
 <div class="section" id="exterior-lighting">
 <h3>Exterior lighting<a class="headerlink" href="#exterior-lighting" title="Permalink to this headline">¶</a></h3>
-<p>We’re going to experiment with the <a class="reference external" href="https://amzn.to/2NHvJbZ">Goal Zero Light-A-Life 350 LED Lights</a> for outdoor lighting. These are nice little lights, and we used them for internal lights before installing our recessed lights (they’re a little clunky for interior use, but they are versatile with hanging and magnetic options for mounting and two brightness levels). They also chain together, which is convenient. We’d like to be able to connect these through a port of some sort on the outside of the van - I’ll update if I figure that out.</p>
+<p>We’re going to experiment with the <a class="reference external" href="https://amzn.to/2NHvJbZ">Goal Zero Light-A-Life 350 LED Lights</a> for outdoor lighting. These are nice little lights, and we used them for internal lights before installing our recessed lights (they’re a little clunky for interior use, but they are versatile with hanging and magnetic options for mounting and two brightness levels). They also chain together, which is convenient. We’d like to be able to connect these through a port of some sort on the outside of the van, maybe when we run wires for the solar. I’ll update this if I figure that out, and once we have a little more experience with these lights.</p>
+</div>
+</div>
+<div class="section" id="system-controls">
+<h2>System controls<a class="headerlink" href="#system-controls" title="Permalink to this headline">¶</a></h2>
+<p>You can connnect to the GZ by wifi or bluetooth with the GZ app. It seems to work reasonably well so far. This allows you to monitor input and loads, as well as turn systems on and off. Pretty cool!</p>
+<div class="figure align-default" id="gz-app-1">
+<a class="reference internal image-reference" href="_images/gz-app-1.jpeg"><img alt="_images/gz-app-1.jpeg" src="_images/gz-app-1.jpeg" style="height: 400px;" /></a>
 </div>
 </div>
 </div>
