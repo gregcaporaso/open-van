@@ -9,14 +9,14 @@ The "finished" project (as if any van project is ever finished).
 
 We use a [Goal Zero Yeti 3000X](https://amzn.to/3bpxnqB) to run our 12V DC system and our 120V AC inverters ({numref}`installed-gz-1`). We can charge this by solar, shore power, or from the vehicle’s alternator while the vehicle is running. A benefit of this system is that it is largely all-in-one. Throughout this document I refer to the Goal Zero Yeti 3000X unit as _GZ_. 
 
-The cost for an all-in-one system now seems relatively similar to designing and building a custom system. When we factor our time into the project costs, the all-in-one system makes a lot of sense to us. 
+The cost for an all-in-one system, as of fairly recently, seems relatively similar to designing and building a custom system. When we factored our time into the project costs, the all-in-one system made a lot of sense to us.
 
 ```{warning}
 I learned a lot about these systems from faroutride.com. I bought their [Wiring Guide and Tutorial](https://faroutride.com/store/wiring-diagram/) and found it very helpful even though they have a custom-built electrical system (opposed to our all-in-one system). They cover important safety points that I don't cover in detail here, such as choosing wire gauge and fuse size for the 12V system. Learning about their system made the GZ less of a mysterious black box for me. Their guide was well worth the money for me (especially considering how much time and money they saved me on other projects).
 ```
 
 ## Inputs (how we charge this thing)
-We can charge this by solar with the [Goal Zero 200W solar panels](https://amzn.to/37ygdWH); using shore power; or using the vehicle alternator using the [Yeti Link vehicle integration kit](https://www.goalzero.com/shop/yeti-accessories/yeti-link-expansion-module/) (see Yeti Link Car Mode on that page). 
+We can charge this by solar with the [Goal Zero 200W solar panels](https://amzn.to/37ygdWH); using shore power; or using the vehicle alternator using the [Yeti Link vehicle integration kit](https://www.goalzero.com/shop/yeti-accessories/yeti-link-expansion-module/) (see Yeti Link Car Mode on that page). Details on each of these charging mechanisms (with the exception of solar - that's not installed yet) are presented in the following subsections. 
 
 ```{warning}
 A safety modification was made to the vehicle integration kit for the X series. Do not buy or use older versions of this hardware!
@@ -92,6 +92,10 @@ Once it's all back together, you can connect the EC8 12FT Extension Cable from t
 
 ### Shore power
 
+Parts:
+ * [Power inlet](https://amzn.to/3sVFdPU)
+ * [Recessed Power Strip](https://amzn.to/3rqV2xN)
+
 ```{figure} images/inlet-1.jpeg
 ---
 name: inlet-1
@@ -99,23 +103,33 @@ name: inlet-1
 The inlet allows us to charge from shore power by plugging into a typical 120V AC outlet (e.g., at home, a campgound, etc). See faroutride.com for install instructions.
 ```
 
+The one inlet splits to two outlets.
+
+The first of these (SH1) we use to charge the GZ unit. 
+
+To the second of these (SH2) I daisy-chained two recessed power strips. This gives us one outlet in our kitchen which provides the AC to the fridge and two outlets in our bed-side cabinet. (Our fridge connects to both our shore power system and our 12V system. When connected to shore power, the fridge will draw from that instead of from the 12V system.)
+
 One inlet splits to two outlets:
- - Shore outlet 1 (SO1): Goal Zero AC charging
- - Shore outlet 2 (S02): 
-    - Cabin shore outlet 1:
-        - Cabin shore outlet 2
-        - Fridge
+ 1. Shore outlet 1 (SH1): Goal Zero AC charging
+ 2. Shore outlet 2 (SH2): Kitchen outlets
+    1. Fridge AC power
+    2. Bedside cabinet outlets (daisy-chained)
+        1. Open
+        2. Open
 
 ### Solar
 
-Not installed yet, but connects directly to GZ. We'll be installing a roof rack and mounting solar on that.
+Parts:
+ * [Goal Zero 200W solar panels](https://amzn.to/37ygdWH)
+
+Not installed yet, but connects directly to GZ. We'll be installing a roof rack and mounting solar on that. Right now I pull the solar panels out when I need to charge by solar. It's miserable, and they are a huge pain to travel with when they're not mounted. Mounting these will be my next project, once my project bank account recovers enough for me to buy a roof rack.
 
 ## Outputs (how we discharge this thing)
 
 ### 12V system
 
 Parts:
- - [Ring terminals to Anderson connections](https://amzn.to/3bCADis) - connects fusebox to GZ
+ - [Ring terminals to Anderson connections](https://amzn.to/3bCADis) - connects fuseblock to GZ
  - [Fuse block](https://amzn.to/2Mzpjvg)
  - [Fuse kit](https://amzn.to/3bJa3V8)
   - 12V DC loads (see https://faroutride.com/van-build/learn/electrical-system/)
@@ -135,7 +149,7 @@ Parts:
  11. Fridge (15A)
  12. Currently unused
 
-Fuse block mounts really nicely on the GZ battery compartment with velcro ({numref}`fuse-block-2`). If you want to mount it somewhere else, you'll need longer Anderson connection wires. 
+The fuse block mounts really nicely on the GZ battery compartment with velcro ({numref}`fuse-block-2`). If you want to mount it somewhere else, you'll need longer Anderson connection wires. 
 
 ```{figure} images/fuse-block-1.jpeg
 ---
@@ -148,12 +162,12 @@ name: fuse-block-1
 ---
 name: fuse-block-2
 ---
-12V fuse block velcro'ed to GZ. The fuse block cover is off in this photo.
+12V fuse block velcro'ed to GZ. (There's some velcro on the front too - I used to have it mounted there, but the side ended up being more convenient for my final configuration.)
 ```
 
 #### 12V System Loads
 
-These photos give an idea of how I did the wiring in the header. Use a box cutter with a brand new blade to make cutouts for fixtures. Pull the whole headliner out to work on if you have enough space. I have a rolling 4'x8' workbench in my wood shop, which is convenient for work on this. Alteratively, a couple of saw horses with two 8 foot 2"x4"s should support it well too. Or just work on one section at a time.
+These photos give an idea of how I did the wiring in the header. I used a box cutter with a brand new blade to make cutouts for fixtures. It worked great. Pull the whole headliner out to work on if you have enough space. I have a rolling 4'x8' workbench in my wood shop, which is convenient for working on this. Alteratively, a couple of saw horses and two 8 or 12 foot 2"x4"s should support it well too. Or just work on one section at a time.
 
 ```{figure} images/12v-loads-1.jpeg
 ---
@@ -170,17 +184,64 @@ name: 12v-loads-2
 ```
 
 ### 120V AC Inverter
+
+Parts:
+ * [Recessed Power Strip](https://amzn.to/3rqV2xN)
+ * [1L electric tea kettle](https://amzn.to/3sSwVZc) (this draws a lot of power, but it sure is nice to be able to make our first [cup of coffee](https://amzn.to/2PHc9xp) of the day without turning our camp stove on!)
+
+There are two 120V AC outlets on the GZ unit. 
+
+To the first of these (GZAC1), I daisy-chained two recessed power strips. This gives us one outlet in our kitchen cabinet and two outlets in our bed-side cabinet. 
+
+I leave the second of these (GZAC2) open so I can connect loads directly to it when needed. This has been really convenient for powering tools while working on the build. s
+
 Two GZ outlets:
- - GZAC1: 
-    - Kitchen outlet
-    - GZ AC2:
-        - Device cabinet outlet 1
-        - Device cabinet outlet 2
- - GZAC2 outlet
+ 1. GZAC1: Kitchen outlets
+    1. Open (usually used for our tea kettle)
+    2. Bedside cabinet outlets (daisy-chained)
+        1. Open
+        2. Open
+ 2. GZAC2: open 
     
 
 ### Exterior lighting
-We’re going to experiment with the [Goal Zero Light-A-Life 350 LED Lights](https://amzn.to/2NHvJbZ) for outdoor lighting. These are nice little lights, and we used them for internal lights before installing our recessed lights (they’re a little clunky for interior use, but they are versatile with hanging and magnetic options for mounting and two brightness levels). They also chain together, which is convenient. We’d like to be able to connect these through a port of some sort on the outside of the van - I’ll update if I figure that out. 
+We’re going to experiment with the [Goal Zero Light-A-Life 350 LED Lights](https://amzn.to/2NHvJbZ) for outdoor lighting. These are nice little lights, and we used them for internal lights before installing our recessed lights (they’re a little clunky for interior use, but they are versatile with hanging and magnetic options for mounting and two brightness levels). They also chain together, which is convenient. We’d like to be able to connect these through a port of some sort on the outside of the van, maybe when we run wires for the solar. I’ll update this if I figure that out, and once we have a little more experience with these lights.
 
+## Mounting
 
+We mounted the GZ to its 3/4" plywood shelf by using the nuts built-in to the bottom of the GZ unit. I first figured out the hole pattern on a piece of scrap wood, and then used that as a template for the drilling the holes on the final shelf. Here's a couple of views of the unit mounted to the scrap wood. 
 
+```{figure} images/gz-mount-1.jpeg
+---
+name: gz-mount-1
+---
+GZ mounted to work cart (side-view). 
+```
+
+```{figure} images/gz-mount-2.jpeg
+---
+name: gz-mount-2
+---
+GZ mounted to work cart (bottom-view). The eye bolts let me tie it down if needed. 
+```
+
+I also put some casters on the scrap wood to make a little cart for the unit to use while I was doing the install. This unit is heavy so I found it convenient to have a little cart for it. Plus it made me feel like I had a little droid to hang out with while I working, so that's a bonus. I had the casters on-hand already, and had already drilled the holes to test my hole pattern. I wouldn't have built this cart just for its own purpose, but I'm glad I have it.
+
+```{figure} images/gz-mount-3.jpeg
+---
+name: gz-mount-3
+---
+GZ-PO (i.e., GZ mounted to work cart). 
+```
+
+## System controls
+
+You can connect to the GZ by wifi or bluetooth with the GZ app. It seems to work reasonably well so far. This allows you to monitor input and loads, as well as turn systems on and off. Pretty cool! 
+
+```{figure} images/gz-app-1.jpeg
+---
+name: gz-app-1
+height: 400
+---
+
+```
