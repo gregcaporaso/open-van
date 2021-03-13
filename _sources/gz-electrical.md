@@ -7,14 +7,16 @@ name: installed-gz-1
 The "finished" project (as if any van project is ever finished). 
 ```
 
-We use a [Goal Zero Yeti 3000X](https://amzn.to/3bpxnqB) to run our 12V system and our inverters ({numref}`installed-gz-1`). We can charge this by solar, shore power, or from the vehicle’s alternator while the vehicle is running. A benefit of this system is that it is largely all-in-one. 
+We use a [Goal Zero Yeti 3000X](https://amzn.to/3bpxnqB) to run our 12V DC system and our 120V AC inverters ({numref}`installed-gz-1`). We can charge this by solar, shore power, or from the vehicle’s alternator while the vehicle is running. A benefit of this system is that it is largely all-in-one. Throughout this document I refer to the Goal Zero Yeti 3000X unit as _GZ_. 
 
-The cost of these systems, as of fairly recently, seems to be relatively similar to designing and building a custom system. When we factored our time into the project costs, the all-in-one system made a lot of sense to us.
+The cost for an all-in-one system, as of fairly recently, seems relatively similar to designing and building a custom system. When we factored our time into the project costs, the all-in-one system made a lot of sense to us.
 
-I learned a lot about these systems from faroutride.com, even though their system is custom designed. I bought their [Wiring Guide and Tutorial](https://faroutride.com/store/wiring-diagram/) and thought it was well worth the money (especially considering how much time and money they saved me on other projects).
+```{warning}
+I learned a lot about these systems from faroutride.com. I bought their [Wiring Guide and Tutorial](https://faroutride.com/store/wiring-diagram/) and found it very helpful even though they have a custom-built electrical system (opposed to our all-in-one system). They cover important safety points that I don't cover in detail here, such as choosing wire gauge and fuse size for the 12V system. Learning about their system made the GZ less of a mysterious black box for me. Their guide was well worth the money for me (especially considering how much time and money they saved me on other projects).
+```
 
 ## Inputs (how we charge this thing)
-We can charge this by solar, using shore power, or using the vehicle alternator using the vehicle integration kit. Details on each of these charging mechanisms (with the exception of solar - that's not installed yet) are presented in the following subsections. 
+We can charge this by solar with the [Goal Zero 200W solar panels](https://amzn.to/37ygdWH); using shore power; or using the vehicle alternator using the [Yeti Link vehicle integration kit](https://www.goalzero.com/shop/yeti-accessories/yeti-link-expansion-module/) (see Yeti Link Car Mode on that page). Details on each of these charging mechanisms (with the exception of solar - that's not installed yet) are presented in the following subsections. 
 
 ```{warning}
 A safety modification was made to the vehicle integration kit for the X series. Do not buy or use older versions of this hardware!
@@ -134,20 +136,20 @@ Parts:
   - Fridge: we have a [Nova Kool](https://www.novakool.com/) [R3100](https://www.novakool.com/r3100-1) AC/DC - it runs great from the GZ, we couldn't be happier with it
 
 12V fuse block ({numref}`fuse-block-1`) - numbers are etched down center of fuse block, they run left-to-right, top-to-bottom
- 1. Ceiling vent fan (15A fuse - is this too high?)
- 2. Ceiling LEDs (runs into header from behind fridge)
- 3. Driver-side (i.e., kitchen) 12V outlet (15A fuse)
+ 1. Ceiling vent fan (10A fuse)
+ 2. Ceiling LEDs (3 total; runs into header from behind fridge; 2A fuse)
+ 3. Driver-side (i.e., kitchen) 12V outlet (5A fuse)
  4. Currently unused
- 5. Passenger-side header (one 12V outlet, small fan - 5A fuse, may turn out to be too small) 
+ 5. Passenger-side header ([USB A/C outlet](https://amzn.to/3rOC6t2) and small fan - 7.5A fuse) 
  6. Currently unused
- 7. Toilet fan (5A fuse - probably too big)
+ 7. Toilet fan (3A fuse)
  8. Currently unused
- 9. Passenger-side outlet (splits to mutli-outlet charging station - 15A)
+ 9. Passenger-side (i.e., bedside) outlet (5A)
  10. Currently unused
  11. Fridge (15A)
  12. Currently unused
 
-Fuse block mounts really nicely on the GZ battery compartment with velcro ({numref}`fuse-block-2`). If you want to mount it somewhere else, you'll need longer Anderson connection wires.
+The fuse block mounts really nicely on the GZ battery compartment with velcro ({numref}`fuse-block-2`). If you want to mount it somewhere else, you'll need longer Anderson connection wires. 
 
 ```{figure} images/fuse-block-1.jpeg
 ---
@@ -234,7 +236,7 @@ GZ-PO (i.e., GZ mounted to work cart).
 
 ## System controls
 
-You can connnect to the GZ by wifi or bluetooth with the GZ app. It seems to work reasonably well so far. This allows you to monitor input and loads, as well as turn systems on and off. Pretty cool! 
+You can connect to the GZ by wifi or bluetooth with the GZ app. It seems to work reasonably well so far. This allows you to monitor input and loads, as well as turn systems on and off. Pretty cool! 
 
 ```{figure} images/gz-app-1.jpeg
 ---
