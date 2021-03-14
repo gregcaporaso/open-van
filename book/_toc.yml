@@ -1,3 +1,4 @@
 - file: intro
   sections:
     - file: gz-electrical.md
+    - file: header.md
