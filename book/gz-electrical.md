@@ -1,6 +1,6 @@
 # Goal Zero-based second battery system
 
-```{figure} images/installed-gz-1.jpeg
+```{figure} images/gz/installed-gz-1.jpeg
 ---
 name: installed-gz-1
 ---
@@ -33,7 +33,7 @@ The battery is installed under the driver’s seat. Unusual, but it fits well, s
 
 **Before removing the seat, unplug the wiring harness under the seat from the front.** One #7 hex head screw holds the wiring harness in place under the driver seat. Unscrew that to loosen and unplug the wire harness (the screw shouldn't come all the way out; {numref}`wire-harness-1`).
 
-```{figure} images/wire-harness-1.jpeg
+```{figure} images/gz/wire-harness-1.jpeg
 ---
 name: wire-harness-1
 ---
@@ -49,7 +49,7 @@ If you don’t have a Swivel base installed, start with [Christopher Lum’s vid
 
 The swivel base stays with the seat when you take it off. Four 3/16” Allen bolts are used to remove the swivel base to access the battery compartment ({numref}`scopema-screw-1`). (If you have a passenger swivel installed already, it makes working on the battery compartment very convenient b/c you’ll have a nice spot to sit while you’re working.) 
 
-```{figure} images/scopema-screw-1.jpeg
+```{figure} images/gz/scopema-screw-1.jpeg
 ---
 name: scopema-screw-1
 ---
@@ -63,7 +63,7 @@ I’ve never installed other swivel bases, but if I imagine it’s easy to figur
 
 First, route the cable. I drilled a 1/2” hole through the rear plastic cover. Drill this hole from inside the battery compartment (or risk drilling into the metal framing). To pass the connector rings through, you’ll need to widen the hold a little after drilling - do that with a file, or just make a second hole. A bigger initial hole won’t fit (at least where I made it) due to the metal framing. Run the wire through the hole. 
 
-```{figure} images/gz-battery-wire-port-1.jpeg
+```{figure} images/gz/gz-battery-wire-port-1.jpeg
 ---
 name: gz-battery-wire-port-1
 ---
@@ -72,7 +72,7 @@ New port for routing [Male EC8 to Ring Terminal](https://www.goalzero.com/shop/p
 
 Remove the #10 hex head nuts to connect rings to battery terminals ({numref}`battery-terminal-1`). Do this one terminal at a time, starting with the negative terminal. Obviously, be very careful when accessing the positive terminal in particular. If you create a path between the positive and negative terminals - especially if that path runs  up one arm and down the other with your heart in the middle - you’ll be sorry. 
 
-```{figure} images/battery-terminal-1.jpeg
+```{figure} images/gz/battery-terminal-1.jpeg
 ---
 name: battery-terminal-1
 ---
@@ -81,7 +81,7 @@ Negative battery terminal with ring connected.
 
 #### Put it all back together
 
-```{figure} images/battery-compartment-1.jpeg
+```{figure} images/gz/battery-compartment-1.jpeg
 ---
 name: battery-compartment-1
 ---
@@ -96,7 +96,7 @@ Parts:
  * [Power inlet](https://amzn.to/3sVFdPU)
  * [Recessed Power Strip](https://amzn.to/3rqV2xN)
 
-```{figure} images/inlet-1.jpeg
+```{figure} images/gz/inlet-1.jpeg
 ---
 name: inlet-1
 ---
@@ -151,14 +151,14 @@ Parts:
 
 The fuse block mounts really nicely on the GZ battery compartment with velcro ({numref}`fuse-block-2`). If you want to mount it somewhere else, you'll need longer Anderson connection wires. 
 
-```{figure} images/fuse-block-1.jpeg
+```{figure} images/gz/fuse-block-1.jpeg
 ---
 name: fuse-block-1
 ---
 12V fuse block, not fully wired. The fuse block cover is on the right. Labeling the wires with a Sharpie is helpful when routing wires, and to facilitate future maintenance that might require disconnecting wires from fuse block. 
 ```
 
-```{figure} images/fuse-block-2.jpeg
+```{figure} images/gz/fuse-block-2.jpeg
 ---
 name: fuse-block-2
 ---
@@ -169,14 +169,14 @@ name: fuse-block-2
 
 These photos give an idea of how I did the wiring in the header. I used a box cutter with a brand new blade to make cutouts for fixtures. It worked great. Pull the whole headliner out to work on if you have enough space. I have a rolling 4'x8' workbench in my wood shop, which is convenient for working on this. Alteratively, a couple of saw horses and two 8 or 12 foot 2"x4"s should support it well too. Or just work on one section at a time.
 
-```{figure} images/12v-loads-1.jpeg
+```{figure} images/gz/12v-loads-1.jpeg
 ---
 name: 12v-loads-1
 ---
 
 ```
 
-```{figure} images/12v-loads-2.jpeg
+```{figure} images/gz/12v-loads-2.jpeg
 ---
 name: 12v-loads-2
 ---
@@ -211,14 +211,14 @@ We’re going to experiment with the [Goal Zero Light-A-Life 350 LED Lights](htt
 
 We mounted the GZ to its 3/4" plywood shelf by using the nuts built-in to the bottom of the GZ unit. I first figured out the hole pattern on a piece of scrap wood, and then used that as a template for the drilling the holes on the final shelf. Here's a couple of views of the unit mounted to the scrap wood. 
 
-```{figure} images/gz-mount-1.jpeg
+```{figure} images/gz/gz-mount-1.jpeg
 ---
 name: gz-mount-1
 ---
 GZ mounted to work cart (side-view). 
 ```
 
-```{figure} images/gz-mount-2.jpeg
+```{figure} images/gz/gz-mount-2.jpeg
 ---
 name: gz-mount-2
 ---
@@ -227,7 +227,7 @@ GZ mounted to work cart (bottom-view). The eye bolts let me tie it down if neede
 
 I also put some casters on the scrap wood to make a little cart for the unit to use while I was doing the install. This unit is heavy so I found it convenient to have a little cart for it. Plus it made me feel like I had a little droid to hang out with while I working, so that's a bonus. I had the casters on-hand already, and had already drilled the holes to test my hole pattern. I wouldn't have built this cart just for its own purpose, but I'm glad I have it.
 
-```{figure} images/gz-mount-3.jpeg
+```{figure} images/gz/gz-mount-3.jpeg
 ---
 name: gz-mount-3
 ---
@@ -238,7 +238,7 @@ GZ-PO (i.e., GZ mounted to work cart).
 
 You can connect to the GZ by wifi or bluetooth with the GZ app. It seems to work reasonably well so far. This allows you to monitor input and loads, as well as turn systems on and off. Pretty cool! 
 
-```{figure} images/gz-app-1.jpeg
+```{figure} images/gz/gz-app-1.jpeg
 ---
 name: gz-app-1
 height: 400
