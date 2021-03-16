@@ -1,3 +1,4 @@
+(gz-install)=
 # Goal Zero-based second battery system
 
 ```{figure} images/gz/installed-gz-1.jpeg
