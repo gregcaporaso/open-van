@@ -47,3 +47,10 @@ name: garage-1
 ---
 Our van garage (i.e., our under-bed storage).
 ```
+
+```{figure} images/gz/installed-gz-1.jpeg
+---
+name: intro-installed-gz
+---
+The Goal Zero Yeti 3000X installed on its shelf over the driver-side rear wheel well. This install is covered in {ref}`gz-install`.
+```
