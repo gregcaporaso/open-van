@@ -19,3 +19,5 @@ name: joist-2
 ---
 The bed from the rear of the van. This was early on - we had barely done any work yet!
 ```
+
+{numref}`installed-gz-1` has another good view of our bed setup from underneath.
