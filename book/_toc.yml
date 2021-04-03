@@ -1,6 +1,7 @@
 - file: intro
   sections:
     - file: gz-electrical.md
-    - file: header.md
+    - file: vent-fan.md
+    - file: headliner.md
     - file: bathroom.md
     - file: bed.md

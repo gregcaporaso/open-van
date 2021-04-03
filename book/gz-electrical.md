@@ -138,10 +138,10 @@ Parts:
 
 12V fuse block ({numref}`fuse-block-1`) - numbers are etched down center of fuse block, they run left-to-right, top-to-bottom
  1. Ceiling vent fan (10A fuse)
- 2. Ceiling LEDs (3 total; runs into header from behind fridge; 2A fuse)
+ 2. Ceiling LEDs (3 total; runs into headliner from behind fridge; 2A fuse)
  3. Driver-side (i.e., kitchen) 12V outlet (5A fuse)
  4. Currently unused
- 5. Passenger-side header ([USB A/C outlet](https://amzn.to/3rOC6t2) and small fan - 7.5A fuse) 
+ 5. Passenger-side headliner ([USB A/C outlet](https://amzn.to/3rOC6t2) and small fan - 7.5A fuse) 
  6. Currently unused
  7. Toilet fan (3A fuse)
  8. Currently unused
@@ -168,7 +168,7 @@ name: fuse-block-2
 
 #### 12V System Loads
 
-These photos give an idea of how I did the wiring in the header. I used a box cutter with a brand new blade to make cutouts for fixtures. It worked great. Pull the whole headliner out to work on if you have enough space. I have a rolling 4'x8' workbench in my wood shop, which is convenient for working on this. Alteratively, a couple of saw horses and two 8 or 12 foot 2"x4"s should support it well too. Or just work on one section at a time.
+These photos give an idea of how I did the wiring in the headliner. I used a box cutter with a brand new blade to make cutouts for fixtures. It worked great. Pull the whole headliner out to work on if you have enough space. I have a rolling 4'x8' workbench in my wood shop, which is convenient for working on this. Alteratively, a couple of saw horses and two 8 or 12 foot 2"x4"s should support it well too. Or just work on one section at a time.
 
 ```{figure} images/gz/12v-loads-1.jpeg
 ---
