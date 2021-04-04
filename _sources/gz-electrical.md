@@ -46,7 +46,7 @@ We have a swivel base installed. See the [faroutride.com swivel seat review](htt
 ##### Factory configuration
 If you don’t have a Swivel base installed, start with [Christopher Lum’s video on removing the driver seat to access the battery compartment](https://www.youtube.com/watch?v=0SsDbT-J8cU). If you’re not already familiar with Christopher’s channel and you are working on a Ford Transit passenger van, you’re about to discover one of the most useful educational resources around! 
 
-##### Scopema swivel base congifuration
+##### Scopema swivel base configuration
 
 The swivel base stays with the seat when you take it off. Four 3/16” Allen bolts are used to remove the swivel base to access the battery compartment ({numref}`scopema-screw-1`). (If you have a passenger swivel installed already, it makes working on the battery compartment very convenient b/c you’ll have a nice spot to sit while you’re working.) 
 
@@ -131,7 +131,7 @@ Not installed yet, but connects directly to GZ. We'll be installing a roof rack 
 ### 12V system
 
 Parts:
- - [Ring terminals to Anderson connections](https://amzn.to/3bCADis) - connects fuseblock to GZ
+ - [Ring terminals to Anderson connections](https://amzn.to/3bCADis) - connects fuse-block to GZ
  - [Fuse block](https://amzn.to/2Mzpjvg)
  - [Fuse kit](https://amzn.to/3bJa3V8)
   - 12V DC loads (see https://faroutride.com/van-build/learn/electrical-system/)
@@ -169,7 +169,7 @@ name: fuse-block-2
 
 #### 12V System Loads
 
-These photos give an idea of how I did the wiring in the headliner. I used a box cutter with a brand new blade to make cutouts for fixtures. It worked great. Pull the whole headliner out to work on if you have enough space. I have a rolling 4'x8' workbench in my wood shop, which is convenient for working on this. Alteratively, a couple of saw horses and two 8 or 12 foot 2"x4"s should support it well too. Or just work on one section at a time.
+These photos give an idea of how I did the wiring in the headliner. I used a box cutter with a brand new blade to make cutouts for fixtures. It worked great. Pull the whole headliner out to work on if you have enough space. I have a rolling 4'x8' workbench in my wood shop, which is convenient for working on this. Alternatively, a couple of saw horses and two 8 or 12 foot 2"x4"s should support it well too. Or just work on one section at a time.
 
 ```{figure} images/gz/12v-loads-1.jpeg
 ---
