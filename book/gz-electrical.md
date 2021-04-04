@@ -96,6 +96,7 @@ Once it's all back together, you can connect the EC8 12FT Extension Cable from t
 Parts:
  * [Power inlet](https://amzn.to/3sVFdPU)
  * [Recessed Power Strip](https://amzn.to/3rqV2xN)
+ * [25' heavy duty extension cord](https://amzn.to/3fFhobR) (for charging from shore power, and drawing from [inverter](inverter) as needed while on the road)
 
 ```{figure} images/gz/inlet-1.jpeg
 ---
@@ -184,6 +185,7 @@ name: 12v-loads-2
 
 ```
 
+(inverter)=
 ### 120V AC Inverter
 
 Parts:
