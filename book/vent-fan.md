@@ -1,6 +1,6 @@
 # Vent fan
 
-We installed a single [Maxxair 00-06200K MaxxFan Ventillation Fan](https://amzn.to/3dAx3qp) as far back as possible in our van. This page includes some photos illustrating the project.
+We installed a single [Maxxair 00-06200K MaxxFan Ventilation Fan](https://amzn.to/3dAx3qp) as far back as possible in our van. This page includes some photos illustrating the project.
 
 Installing the vent fan was the part of the project I was least looking forward to. It's intimidating, but very doable. [FarOutRide's guide to this was indispensable for me](https://faroutride.com/fan-installation/). That's what I recommend referring to for this. I'm adding some photos of my work to show how I did this while. One difference between what I did and the FarOutRide build is that my goal was to retain the factory headliner, ducting, and curtain airbags.
 
