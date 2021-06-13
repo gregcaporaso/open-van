@@ -10,10 +10,6 @@ name: exterior-1
 🏕️
 ```
 
-```{warning}
-Use any information you find on this site at your own risk. I'm not a licensed contractor - just a tinkerer!
-```
-
 We're doing a minimal (hah!) van conversion that allows us to keep curtain airbags throughout the van. We travel as a family of three, and sometimes as a family of two. Our build allows us to install one two-person bench seat in the back when we need it and pull it out when we don't. 
 
 ```{figure} images/interior-1.jpeg
@@ -28,10 +24,6 @@ Some features of our van build looking from front to back with the two-person be
 name: interior-2
 ---
 Some features of our van build looking from back to front with the two-person bench installed.
-```
-
-```{note}
-I include Amazon Affiliate links on this site. This means that if you purchase something on Amazon after following one of my links, I get a small cut of the money. Purchasing products through affiliate links is good way to support the Internet content developers who you learn about products from.
 ```
 
 ```{figure} images/interior-3.jpeg

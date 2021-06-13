@@ -4,11 +4,11 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bed &#8212; Open Van</title>
     
-  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
 
     
   <link rel="stylesheet"
@@ -20,14 +20,10 @@
 
     
       
-  <link rel="stylesheet"
-    href="_static/vendor/open-sans_all/1.44.1/index.css">
-  <link rel="stylesheet"
-    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
 
     
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -35,7 +31,7 @@
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
 
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -45,7 +41,7 @@
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -56,14 +52,14 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="prev" title="Toilet cabinet" href="bathroom.html" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
-
-
-
+    
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
     
 
     <div class="container-xl">
@@ -72,27 +68,27 @@
 <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
         <div class="navbar-brand-box">
-<a class="navbar-brand text-wrap" href="index.html">
-  
-  <img src="_static/logo.png" class="logo" alt="logo">
-  
-  
-  <h1 class="site-logo" id="site-title">Open Van</h1>
-  
-</a>
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Open Van</h1>
+      
+    </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form>
-<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-    <ul class="nav sidenav_l1">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="intro.html">
    Open Van
   </a>
  </li>
 </ul>
-<ul class="current nav sidenav_l1">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="gz-electrical.html">
    Goal Zero-based second battery system
@@ -120,6 +116,7 @@
  </li>
 </ul>
 
+    </div>
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
@@ -169,12 +166,12 @@
 
             <!-- Source interaction buttons -->
 
-
             <!-- Full screen (wrap in <a> to have style consistency -->
-            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                    title="Fullscreen mode"><i
-                        class="fas fa-expand"></i></button></a>
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
 
             <!-- Launch buttons -->
 
@@ -191,25 +188,21 @@
         
               <div>
                 
-  <section id="bed">
+  <div class="section" id="bed">
 <h1>Bed<a class="headerlink" href="#bed" title="Permalink to this headline">¶</a></h1>
 <p>This page has a few photos that show how the bed is mounted.</p>
-<p>The basic idea is that I installed <a class="reference external" href="https://faroutride.com/crossnut/">cross nuts</a> along both walls of the van. I then cut some 2”x6”s to size, sanded them, and bolted them into the cross nuts. Then I attached <a class="reference external" href="https://amzn.to/3vC6IjO">joist hangers</a> to the 2”x6”s, and added joists running across the width of the van. Finally, I cut some pre-finished 3/4” plywood to size, and attached that to the top of the joists to create the platform for the bed. Seems to be working well so far!</p>
-<figure class="align-default" id="joist-1">
+<p>The basic idea is that I installed <a class="reference external" href="https://faroutride.com/crossnut/">cross nuts</a> along both walls of the van. I then cut some 2”x6”s to size, sanded them, and bolted them into the cross nuts. Then I attached joist hangers to the 2”x6”s, and added joists running across the width of the van. Finally, I cut some pre-finished 3/4” plywood to size, and attached that to the top of the joists to create the platform for the bed. Seems to be working well so far!</p>
+<div class="figure align-default" id="joist-1">
 <img alt="_images/joist-1.jpeg" src="_images/joist-1.jpeg" />
-<figcaption>
-<p><span class="caption-number">Fig. 47 </span><span class="caption-text">The underside of the bed.</span><a class="headerlink" href="#joist-1" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
+<p class="caption"><span class="caption-number">Fig. 47 </span><span class="caption-text">The underside of the bed.</span><a class="headerlink" href="#joist-1" title="Permalink to this image">¶</a></p>
+</div>
 <p>In <a class="reference internal" href="#joist-1"><span class="std std-numref">Fig. 47</span></a> you can see that I initially tried to attach bungee netting to the underside of the bed to use the joist space for storage. It was endlessly frustrating - things would fall through, it would sag and make it hard to slide things stored on the floor in and out, and generally it was just annoying. More recently we found other ways to make use of the joist space that are working out really well (see <a class="reference internal" href="intro.html#garage-1"><span class="std std-numref">Fig. 6</span></a>).</p>
-<figure class="align-default" id="joist-2">
+<div class="figure align-default" id="joist-2">
 <img alt="_images/joist-2.jpeg" src="_images/joist-2.jpeg" />
-<figcaption>
-<p><span class="caption-number">Fig. 48 </span><span class="caption-text">The bed from the rear of the van. This was early on - we had barely done any work yet!</span><a class="headerlink" href="#joist-2" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
+<p class="caption"><span class="caption-number">Fig. 48 </span><span class="caption-text">The bed from the rear of the van. This was early on - we had barely done any work yet!</span><a class="headerlink" href="#joist-2" title="Permalink to this image">¶</a></p>
+</div>
 <p><a class="reference internal" href="gz-electrical.html#installed-gz-1"><span class="std std-numref">Fig. 8</span></a> has another good view of our bed setup from underneath.</p>
-</section>
+</div>
 
     <script type="text/x-thebe-config">
     {
@@ -257,21 +250,19 @@
 
       </div>
     </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
 
-    
-  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
+  
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+                        window.ga = window.ga || function () {
+                            (ga.q = ga.q || []).push(arguments) };
+                        ga.l = +new Date;
+                        ga('create', 'UA-191434368-1', 'auto');
+                        ga('set', 'anonymizeIp', true);
+                        ga('send', 'pageview');
+                    </script>
 
-
-    
-    <!-- Google Analytics -->
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-191434368-1', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('send', 'pageview');
-    </script>
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
-    <!-- End Google Analytics -->
-    
   </body>
 </html>

@@ -2,7 +2,7 @@
 
 This page has a few photos that show how the bed is mounted.
 
-The basic idea is that I installed [cross nuts](https://faroutride.com/crossnut/) along both walls of the van. I then cut some 2"x6"s to size, sanded them, and bolted them into the cross nuts. Then I attached [joist hangers](https://amzn.to/3vC6IjO) to the 2"x6"s, and added joists running across the width of the van. Finally, I cut some pre-finished 3/4" plywood to size, and attached that to the top of the joists to create the platform for the bed. Seems to be working well so far! 
+The basic idea is that I installed [cross nuts](https://faroutride.com/crossnut/) along both walls of the van. I then cut some 2"x6"s to size, sanded them, and bolted them into the cross nuts. Then I attached joist hangers to the 2"x6"s, and added joists running across the width of the van. Finally, I cut some pre-finished 3/4" plywood to size, and attached that to the top of the joists to create the platform for the bed. Seems to be working well so far! 
 
 ```{figure} images/bed/joist-1.jpeg
 ---

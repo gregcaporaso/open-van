@@ -8,16 +8,20 @@ name: installed-gz-1
 The "finished" project (as if any van project is ever finished). 
 ```
 
-We use a [Goal Zero Yeti 3000X](https://amzn.to/3bpxnqB) to run our 12V DC system and our 120V AC inverters ({numref}`installed-gz-1`). We can charge this by solar, shore power, or from the vehicle’s alternator while the vehicle is running. A benefit of this system is that it is largely all-in-one. Throughout this document I refer to the Goal Zero Yeti 3000X unit as _GZ_. 
+We use a [Goal Zero Yeti 3000X](https://www.goalzero.com/shop/portable-power/goal-zero-yeti-3000x-portable-power-station/) to run our 12V DC system and our 120V AC inverters ({numref}`installed-gz-1`). We can charge this by solar, shore power, or from the vehicle’s alternator while the vehicle is running. A benefit of this system is that it is largely all-in-one. Throughout this document I refer to the Goal Zero Yeti 3000X unit as _GZ_. 
 
 The cost for an all-in-one system, as of fairly recently, seems relatively similar to designing and building a custom system. When we factored our time into the project costs, the all-in-one system made a lot of sense to us.
+
+```{warning}
+Use any information you find on this site at your own risk. I'm not a licensed contractor - just a tinkerer!
+```
 
 ```{warning}
 I learned a lot about these systems from faroutride.com. I bought their [Wiring Guide and Tutorial](https://faroutride.com/store/wiring-diagram/) and found it very helpful even though they have a custom-built electrical system (opposed to our all-in-one system). They cover important safety points that I don't cover in detail here, such as choosing wire gauge and fuse size for the 12V system. Learning about their system made the GZ less of a mysterious black box for me. Their guide was well worth the money for me (especially considering how much time and money they saved me on other projects).
 ```
 
 ## Inputs (how we charge this thing)
-We can charge this by solar with the [Goal Zero 200W solar panels](https://amzn.to/37ygdWH); using shore power; or using the vehicle alternator using the [Yeti Link vehicle integration kit](https://www.goalzero.com/shop/yeti-accessories/yeti-link-expansion-module/) (see Yeti Link Car Mode on that page). Details on each of these charging mechanisms (with the exception of solar - that's not installed yet) are presented in the following subsections. 
+We can charge this by solar with the [Goal Zero 200W solar panels](https://www.goalzero.com/shop/solar-panels/boulder-200-solar-panel-briefcase/); using shore power; or using the vehicle alternator using the [Yeti Link vehicle integration kit](https://www.goalzero.com/shop/yeti-accessories/yeti-link-expansion-module/) (see Yeti Link Car Mode on that page). Details on each of these charging mechanisms (with the exception of solar - that's not installed yet) are presented in the following subsections. 
 
 ```{warning}
 A safety modification was made to the vehicle integration kit for the X series. Do not buy or use older versions of this hardware!
@@ -94,9 +98,9 @@ Once it's all back together, you can connect the EC8 12FT Extension Cable from t
 ### Shore power
 
 Parts:
- * [Power inlet](https://amzn.to/3sVFdPU)
- * [Recessed Power Strip](https://amzn.to/3rqV2xN)
- * [25' heavy duty extension cord](https://amzn.to/3fFhobR) (for charging from shore power, and drawing from [inverter](inverter) as needed while on the road)
+ * Power inlet
+ * Recessed Power Strip
+ * 25' heavy duty extension cord (for charging from shore power, and drawing from [inverter](inverter) as needed while on the road)
 
 ```{figure} images/gz/inlet-1.jpeg
 ---
@@ -122,7 +126,7 @@ One inlet splits to two outlets:
 ### Solar
 
 Parts:
- * [Goal Zero 200W solar panels](https://amzn.to/37ygdWH)
+ * Goal Zero 200W solar panels
 
 Not installed yet, but connects directly to GZ. We'll be installing a roof rack and mounting solar on that. Right now I pull the solar panels out when I need to charge by solar. It's miserable, and they are a huge pain to travel with when they're not mounted. Mounting these will be my next project, once my project bank account recovers enough for me to buy a roof rack.
 
@@ -131,9 +135,9 @@ Not installed yet, but connects directly to GZ. We'll be installing a roof rack 
 ### 12V system
 
 Parts:
- - [Ring terminals to Anderson connections](https://amzn.to/3bCADis) - connects fuse-block to GZ
- - [Fuse block](https://amzn.to/2Mzpjvg)
- - [Fuse kit](https://amzn.to/3bJa3V8)
+ - Ring terminals to Anderson connections - connects fuse-block to GZ
+ - Fuse block
+ - Fuse kit
   - 12V DC loads (see https://faroutride.com/van-build/learn/electrical-system/)
   - Fridge: we have a [Nova Kool](https://www.novakool.com/) [R3100](https://www.novakool.com/r3100-1) AC/DC - it runs great from the GZ, we couldn't be happier with it
 
@@ -142,7 +146,7 @@ Parts:
  2. Ceiling LEDs (3 total; runs into headliner from behind fridge; 2A fuse)
  3. Driver-side (i.e., kitchen) 12V outlet (5A fuse)
  4. Currently unused
- 5. Passenger-side headliner ([USB A/C outlet](https://amzn.to/3rOC6t2) and small fan - 7.5A fuse) 
+ 5. Passenger-side headliner (USB A/C outlet and small fan - 7.5A fuse) 
  6. Currently unused
  7. Toilet fan (3A fuse)
  8. Currently unused
@@ -189,8 +193,8 @@ name: 12v-loads-2
 ### 120V AC Inverter
 
 Parts:
- * [Recessed Power Strip](https://amzn.to/3rqV2xN)
- * [1L electric tea kettle](https://amzn.to/3sSwVZc) (this draws a lot of power, but it sure is nice to be able to make our first [cup of coffee](https://amzn.to/2PHc9xp) of the day without turning our camp stove on!)
+ * Recessed Power Strip
+ * 1L electric tea kettle (This draws a lot of power, but it sure is nice to be able to make a [cup of coffee](https://aeropress.com/) without turning our camp stove on on special occasions!)
 
 There are two 120V AC outlets on the GZ unit. 
 
@@ -208,7 +212,7 @@ Two GZ outlets:
     
 
 ### Exterior lighting
-We’re going to experiment with the [Goal Zero Light-A-Life 350 LED Lights](https://amzn.to/2NHvJbZ) for outdoor lighting. These are nice little lights, and we used them for internal lights before installing our recessed lights (they’re a little clunky for interior use, but they are versatile with hanging and magnetic options for mounting and two brightness levels). They also chain together, which is convenient. We’d like to be able to connect these through a port of some sort on the outside of the van, maybe when we run wires for the solar. I’ll update this if I figure that out, and once we have a little more experience with these lights.
+We’re going to experiment with the [Goal Zero Light-A-Life 350 LED Lights](https://www.goalzero.com/shop/yeti-accessories/light-a-life-350-led-light/) for outdoor lighting. These are nice little lights, and we used them for internal lights before installing our recessed lights (they’re a little clunky for interior use, but they are versatile with hanging and magnetic options for mounting and two brightness levels). They also chain together, which is convenient. We’d like to be able to connect these through a port of some sort on the outside of the van, maybe when we run wires for the solar. I’ll update this if I figure that out, and once we have a little more experience with these lights.
 
 ## Mounting
 

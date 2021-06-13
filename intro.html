@@ -4,11 +4,11 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Open Van &#8212; Open Van</title>
     
-  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
 
     
   <link rel="stylesheet"
@@ -20,14 +20,10 @@
 
     
       
-  <link rel="stylesheet"
-    href="_static/vendor/open-sans_all/1.44.1/index.css">
-  <link rel="stylesheet"
-    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
 
     
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -35,7 +31,7 @@
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
 
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -45,7 +41,7 @@
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -56,14 +52,14 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Goal Zero-based second battery system" href="gz-electrical.html" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
-
-
-
+    
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
     
 
     <div class="container-xl">
@@ -72,27 +68,27 @@
 <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
         <div class="navbar-brand-box">
-<a class="navbar-brand text-wrap" href="index.html">
-  
-  <img src="_static/logo.png" class="logo" alt="logo">
-  
-  
-  <h1 class="site-logo" id="site-title">Open Van</h1>
-  
-</a>
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Open Van</h1>
+      
+    </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form>
-<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-    <ul class="nav sidenav_l1">
- <li class="toctree-l1 current active">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1 current">
   <a class="reference internal" href="#">
    Open Van
   </a>
  </li>
 </ul>
-<ul class="nav sidenav_l1">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="gz-electrical.html">
    Goal Zero-based second battery system
@@ -120,6 +116,7 @@
  </li>
 </ul>
 
+    </div>
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
@@ -169,12 +166,12 @@
 
             <!-- Source interaction buttons -->
 
-
             <!-- Full screen (wrap in <a> to have style consistency -->
-            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                    title="Fullscreen mode"><i
-                        class="fas fa-expand"></i></button></a>
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
 
             <!-- Launch buttons -->
 
@@ -191,63 +188,41 @@
         
               <div>
                 
-  <section id="open-van">
+  <div class="section" id="open-van">
 <h1>Open Van<a class="headerlink" href="#open-van" title="Permalink to this headline">¶</a></h1>
 <p>Experiments with a 2019 Ford Transit 350 15 Passenger XLT mid-roof.</p>
-<figure class="align-default" id="exterior-1">
+<div class="figure align-default" id="exterior-1">
 <img alt="_images/exterior-1.jpeg" src="_images/exterior-1.jpeg" />
-<figcaption>
-<p><span class="caption-number">Fig. 1 </span><span class="caption-text">🏕️</span><a class="headerlink" href="#exterior-1" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Use any information you find on this site at your own risk. I’m not a licensed contractor - just a tinkerer!</p>
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">🏕️</span><a class="headerlink" href="#exterior-1" title="Permalink to this image">¶</a></p>
 </div>
 <p>We’re doing a minimal (hah!) van conversion that allows us to keep curtain airbags throughout the van. We travel as a family of three, and sometimes as a family of two. Our build allows us to install one two-person bench seat in the back when we need it and pull it out when we don’t.</p>
-<figure class="align-default" id="interior-1">
+<div class="figure align-default" id="interior-1">
 <img alt="_images/interior-1.jpeg" src="_images/interior-1.jpeg" />
-<figcaption>
-<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Some features of our van build looking from front to back with the two-person bench installed.</span><a class="headerlink" href="#interior-1" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-<figure class="align-default" id="interior-2">
-<img alt="_images/interior-2.jpeg" src="_images/interior-2.jpeg" />
-<figcaption>
-<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Some features of our van build looking from back to front with the two-person bench installed.</span><a class="headerlink" href="#interior-2" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>I include Amazon Affiliate links on this site. This means that if you purchase something on Amazon after following one of my links, I get a small cut of the money. Purchasing products through affiliate links is good way to support the Internet content developers who you learn about products from.</p>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Some features of our van build looking from front to back with the two-person bench installed.</span><a class="headerlink" href="#interior-1" title="Permalink to this image">¶</a></p>
 </div>
-<figure class="align-default" id="interior-3">
+<div class="figure align-default" id="interior-2">
+<img alt="_images/interior-2.jpeg" src="_images/interior-2.jpeg" />
+<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Some features of our van build looking from back to front with the two-person bench installed.</span><a class="headerlink" href="#interior-2" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="interior-3">
 <img alt="_images/interior-3.jpeg" src="_images/interior-3.jpeg" />
-<figcaption>
-<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Some features of our van build looking from outside the sliding door. The two-person bench is not installed in this picture.</span><a class="headerlink" href="#interior-3" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-<figure class="align-default" id="interior-4">
+<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Some features of our van build looking from outside the sliding door. The two-person bench is not installed in this picture.</span><a class="headerlink" href="#interior-3" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="interior-4">
 <img alt="_images/interior-4.jpeg" src="_images/interior-4.jpeg" />
-<figcaption>
-<p><span class="caption-number">Fig. 5 </span><span class="caption-text">A cute dog who makes it extremely hard to keep our van clean.</span><a class="headerlink" href="#interior-4" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-<figure class="align-default" id="garage-1">
+<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">A cute dog who makes it extremely hard to keep our van clean.</span><a class="headerlink" href="#interior-4" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="garage-1">
 <img alt="_images/garage-1.jpeg" src="_images/garage-1.jpeg" />
-<figcaption>
-<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Our van garage (i.e., our under-bed storage).</span><a class="headerlink" href="#garage-1" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-<figure class="align-default" id="intro-installed-gz">
+<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Our van garage (i.e., our under-bed storage).</span><a class="headerlink" href="#garage-1" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="intro-installed-gz">
 <img alt="_images/installed-gz-1.jpeg" src="_images/installed-gz-1.jpeg" />
-<figcaption>
-<p><span class="caption-number">Fig. 7 </span><span class="caption-text">The Goal Zero Yeti 3000X installed on its shelf over the driver-side rear wheel well. This install is covered in <a class="reference internal" href="gz-electrical.html#gz-install"><span class="std std-ref">Goal Zero-based second battery system</span></a>.</span><a class="headerlink" href="#intro-installed-gz" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
+<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">The Goal Zero Yeti 3000X installed on its shelf over the driver-side rear wheel well. This install is covered in <a class="reference internal" href="gz-electrical.html#gz-install"><span class="std std-ref">Goal Zero-based second battery system</span></a>.</span><a class="headerlink" href="#intro-installed-gz" title="Permalink to this image">¶</a></p>
+</div>
 <div class="toctree-wrapper compound">
 </div>
-</section>
+</div>
 
     <script type="text/x-thebe-config">
     {
@@ -295,21 +270,19 @@
 
       </div>
     </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
 
-    
-  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
+  
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+                        window.ga = window.ga || function () {
+                            (ga.q = ga.q || []).push(arguments) };
+                        ga.l = +new Date;
+                        ga('create', 'UA-191434368-1', 'auto');
+                        ga('set', 'anonymizeIp', true);
+                        ga('send', 'pageview');
+                    </script>
 
-
-    
-    <!-- Google Analytics -->
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-191434368-1', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('send', 'pageview');
-    </script>
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
-    <!-- End Google Analytics -->
-    
   </body>
 </html>
