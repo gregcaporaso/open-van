@@ -1,7 +1,8 @@
-- file: intro
-  sections:
-    - file: gz-electrical.md
-    - file: vent-fan.md
-    - file: headliner.md
-    - file: bathroom.md
-    - file: bed.md
+format: jb-article
+root: intro
+sections:
+- file: gz-electrical.md
+- file: vent-fan.md
+- file: headliner.md
+- file: bathroom.md
+- file: bed.md
