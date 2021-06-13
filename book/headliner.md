@@ -3,7 +3,10 @@
 
 ## Overview
 
-This document illustrates how I installed eye hooks in the headliner. We use this to mount [bungee netting](https://amzn.to/3qM9cbM) on the ceiling. Over our bed we partially lay out [wool army blankets](https://amzn.to/3bJqiT7) ({numref}`netting-1`). In our opinion you should have one of these on hand per-person as extra bedding in case of emergency, and they make a great layer on top of the netting because we can store light-weight packing cubes on top of them. Over the living area we store our window covers flat {numref}`netting-2`. This system works well as long as you don't store anything too heavy in the netting (otherwise it sags too much). 
+This document illustrates how I installed eye hooks in the headliner. We use this to mount [bungee netting](https://amzn.to/3qM9cbM) on the ceiling. It's working reasonably well so far, but I need to get better anchor points in place for the headliner. This project is still a bit of a work in progress.
+
+
+Over our bed we partially lay out [wool army blankets](https://amzn.to/3bJqiT7) ({numref}`netting-1`) - this helps keep things from falling through the net, and they're good to have in case of emergency. Over the living area we store our window covers flat {numref}`netting-2`. This system works well as long as you don't store anything too heavy in the netting (otherwise it sags too much). 
 
 ```{figure} images/headliner/netting-1.jpeg
 ---
@@ -21,9 +24,9 @@ Bungee netting lets us store our window covers flat against the ceiling over the
 
 ## Installation
 
-In the photos below, I show this using a scrap piece of headliner (a cutout from where I installed a dimmer switch). This took a little head scratching to come up with, but the idea is that I make a "headliner sandwich" using an [eye hook](https://amzn.to/3qMDURS), two [one-inch OD washers](https://amzn.to/2Q36WAf), and a [plastic drywall anchor](https://amzn.to/3cvCXs1). I had all of these parts on-hand already - those links show roughly what I used from what I can tell. I don't know how much weight each of these holds, but they feel pretty darn sturdy.
+In the photos below, I show this using a scrap piece of headliner (a cutout from where I installed a dimmer switch). This took a little head scratching to come up with, but the idea is that I make a "headliner sandwich" using an eye hook, two one-inch OD washers, and a plastic drywall anchor. I had all of these parts on-hand already - those links show roughly what I used from what I can tell. I don't know how much weight each of these holds, but they feel pretty darn sturdy.
 
-**The approach I took can only be applied while you have access to both sides of the headliner. So if you have it off to install insulation, lighting, etc., that's the time to install these.** Before taking the headliner off, I marked exactly where I wanted all of the mount points with little bits of [painters tape](https://amzn.to/3tctiNK). (I use painter's tape constantly, because it doesn't leave a sticky residue behind.) Once the headliner is off, orientation/etc can get confusing so I planned where everything went while it was still up. 
+**The approach I took can only be applied while you have access to both sides of the headliner. So if you have it off to install insulation, lighting, etc., that's the time to install these.** Before taking the headliner off, I marked exactly where I wanted all of the mount points with little bits of painters tape. (I use painter's tape constantly, because it doesn't leave a sticky residue behind.) Once the headliner is off, orientation/etc can get confusing so I planned where everything went while it was still up. 
 
 It's easier to explain with photos, so here goes...
 
@@ -87,6 +90,6 @@ That's it! Repeat for all of your mount points.
 
 ## Other ideas
 
-This whole thing could also be achieved using eye bolts on machine screws with nuts on both sides. I experimented with that as well and it worked great, but I tend to use what I have around the shop and I had more of the parts illustrated here so I went with that approach. 
+This whole thing could also be achieved using eye bolts on machine screws with nuts on both sides. I experimented with that as well and it worked great, but I used what I already had on-hand for this. 
 
 I'm considering swapping the bungee netting with nylon webbing (or something else that wouldn't sag under the weight) at some point. But again, I had the bungee net on-hand already, so I started with that. It's working pretty well so far.

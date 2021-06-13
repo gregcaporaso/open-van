@@ -1,6 +1,6 @@
 # Toilet cabinet
 
-Not a lot of text here yet, but here's some pictures that show our toilet setup. This is a [Nature's Head Composting Toilet](https://amzn.to/3qPh4Jt) and we love it! 
+Our toilet setup. This is a [Nature's Head Composting Toilet](https://natureshead.net/) and it's working nicely so far.  
 
 💩 to 🌱 can save the 🌍 . If you want to learn more about composting human waste, [The Humanure Handbook](https://amzn.to/30JzT6e) is the definitive resource. 
 

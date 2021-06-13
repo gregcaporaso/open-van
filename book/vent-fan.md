@@ -1,6 +1,6 @@
 # Vent fan
 
-We installed a single [Maxxair 00-06200K MaxxFan Ventilation Fan](https://amzn.to/3dAx3qp) as far back as possible in our van. This page includes some photos illustrating the project.
+We installed a single Maxxair 00-06200K MaxxFan Ventilation Fan as far back as possible in our van. This page includes some photos illustrating the project.
 
 Installing the vent fan was the part of the project I was least looking forward to. It's intimidating, but very doable. [FarOutRide's guide to this was indispensable for me](https://faroutride.com/fan-installation/). That's what I recommend referring to for this. I'm adding some photos of my work to show how I did this while. One difference between what I did and the FarOutRide build is that my goal was to retain the factory headliner, ducting, and curtain airbags.
 
@@ -45,7 +45,7 @@ On the outside of the van, I aligned the roof adapter with the four holes that I
 ---
 name: alignment-1
 ---
-Aligning the roof adapter to the pilot holes. My [DeWalt 20V jigsaw](https://amzn.to/3rKNuW8) might be the single favorite tool that I own. 
+Aligning the roof adapter to the pilot holes. My 20V jigsaw (battery powered) worked great for this - love that tool! 
 ```
 
 I traced the inside of the adapter with a Sharpie to make my guidelines for cutting. I then removed the roof adapter and cut the hole where I had traced with a jigsaw. Unfortunately I don't have a picture of this before cutting.
@@ -86,7 +86,7 @@ The headliner with the trim temporarily placed.
 
 ## Installation of roof adapter and support strips.
 
-[Trigger clamps work great for this](https://amzn.to/3mlmJX1) (and a million other projects). I use mine constantly.
+Trigger clamps work great for this (and a million other projects). I use mine constantly.
 
 ```{figure} images/vent-fan/adapter-glue-up-1.jpeg
 ---
