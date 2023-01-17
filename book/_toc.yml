@@ -1,8 +1,16 @@
 format: jb-article
 root: intro
 sections:
+- file: pre-history.md
+- file: bed.md
+- file: garage.md
 - file: gz-electrical.md
 - file: vent-fan.md
-- file: headliner.md
+- file: roof.md
+- file: fridge.md
+- file: ceiling.md
+- file: floor.md
 - file: bathroom.md
-- file: bed.md
+- file: water.md
+- file: heater.md
+- file: adventures.md
