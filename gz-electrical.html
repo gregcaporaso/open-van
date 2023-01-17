@@ -4,11 +4,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Goal Zero-based second battery system &#8212; Open Van</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet" />
-  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,46 +20,72 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script >
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Vent fan" href="vent-fan.html" />
-    <link rel="prev" title="Open Van" href="intro.html" />
+    <link rel="prev" title="Garage" href="garage.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="None">
     
+
+    <!-- Google Analytics -->
+    
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+                        window.ga = window.ga || function () {
+                            (ga.q = ga.q || []).push(arguments) };
+                        ga.l = +new Date;
+                        ga('create', 'UA-191434368-1', 'auto');
+                        ga('set', 'anonymizeIp', true);
+                        ga('send', 'pageview');
+                    </script>
+
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -66,10 +94,15 @@
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
       
       <img src="_static/logo.png" class="logo" alt="logo">
       
@@ -80,16 +113,32 @@
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <ul class="nav bd-sidenav">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Open Van
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="intro.html">
-   Open Van
+  <a class="reference internal" href="pre-history.html">
+   Pre-history
   </a>
  </li>
-</ul>
-<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="bed.html">
+   Bed
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="garage.html">
+   Garage
+  </a>
+ </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Goal Zero-based second battery system
@@ -101,8 +150,23 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="headliner.html">
-   Headliner mount points
+  <a class="reference internal" href="roof.html">
+   Roof rack and solar panel
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="fridge.html">
+   Fridge and fridge cabinet
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ceiling.html">
+   Ceiling
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="floor.html">
+   Floor
   </a>
  </li>
  <li class="toctree-l1">
@@ -111,19 +175,34 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="bed.html">
-   Bed
+  <a class="reference internal" href="water.html">
+   Water tank
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="heater.html">
+   Secondary heater
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="adventures.html">
+   Adventures in the van
   </a>
  </li>
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
 </div>
 
 
@@ -131,61 +210,117 @@
 
 
           
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
     
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
-            
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
+    <div class="header-article row sticky-top noprint">
         
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/gz-electrical.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/gz-electrical.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
     </div>
 </div>
 
-            <!-- Source interaction buttons -->
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
-        </div>
-
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav">
-                <ul class="visible nav section-nav flex-column">
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#inputs-how-we-charge-this-thing">
    Inputs (how we charge this thing)
@@ -283,22 +418,137 @@
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Goal Zero-based second battery system</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#inputs-how-we-charge-this-thing">
+   Inputs (how we charge this thing)
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#alternator-based-charging">
+     Alternator-based charging
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#remove-seat-to-access-the-battery-compartment">
+       Remove seat to access the battery compartment
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#factory-configuration">
+         Factory configuration
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#scopema-swivel-base-configuration">
+         Scopema swivel base configuration
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#other-swivel-base-configurations">
+         Other swivel base configurations
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#connect-to-battery-terminals-and-route-cable">
+       Connect to battery terminals and route cable
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#put-it-all-back-together">
+       Put it all back together
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#shore-power">
+     Shore power
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#solar">
+     Solar
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#outputs-how-we-discharge-this-thing">
+   Outputs (how we discharge this thing)
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#v-system">
+     12V system
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#v-system-loads">
+       12V System Loads
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#v-ac-inverter">
+     120V AC Inverter
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#exterior-lighting">
+     Exterior lighting
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mounting">
+   Mounting
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#system-controls">
+   System controls
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="section" id="goal-zero-based-second-battery-system">
-<span id="gz-install"></span><h1>Goal Zero-based second battery system<a class="headerlink" href="#goal-zero-based-second-battery-system" title="Permalink to this headline">¶</a></h1>
-<div class="figure align-default" id="installed-gz-1">
+  <section class="tex2jax_ignore mathjax_ignore" id="goal-zero-based-second-battery-system">
+<span id="gz-install"></span><h1>Goal Zero-based second battery system<a class="headerlink" href="#goal-zero-based-second-battery-system" title="Permalink to this headline">#</a></h1>
+<figure class="align-default" id="installed-gz-1">
 <img alt="_images/installed-gz-1.jpeg" src="_images/installed-gz-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">The “finished” project (as if any van project is ever finished).</span><a class="headerlink" href="#installed-gz-1" title="Permalink to this image">¶</a></p>
-</div>
-<p>We use a <a class="reference external" href="https://www.goalzero.com/shop/portable-power/goal-zero-yeti-3000x-portable-power-station/">Goal Zero Yeti 3000X</a> to run our 12V DC system and our 120V AC inverters (<a class="reference internal" href="#installed-gz-1"><span class="std std-numref">Fig. 8</span></a>). We can charge this by solar, shore power, or from the vehicle’s alternator while the vehicle is running. A benefit of this system is that it is largely all-in-one. Throughout this document I refer to the Goal Zero Yeti 3000X unit as <em>GZ</em>.</p>
+<figcaption>
+<p><span class="caption-number">Fig. 16 </span><span class="caption-text">The finished project.</span><a class="headerlink" href="#installed-gz-1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>We use a <a class="reference external" href="https://www.goalzero.com/shop/portable-power/goal-zero-yeti-3000x-portable-power-station/">Goal Zero Yeti 3000X</a> to run our 12V DC system and our 120V AC inverters (<a class="reference internal" href="#installed-gz-1"><span class="std std-numref">Fig. 16</span></a>). We can charge this by solar, shore power, or from the vehicle’s alternator while the vehicle is running. A benefit of this system is that it is largely all-in-one. Throughout this document I refer to the Goal Zero Yeti 3000X unit as <em>GZ</em>.</p>
 <p>The cost for an all-in-one system, as of fairly recently, seems relatively similar to designing and building a custom system. When we factored our time into the project costs, the all-in-one system made a lot of sense to us.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -308,80 +558,92 @@
 <p class="admonition-title">Warning</p>
 <p>I learned a lot about these systems from <a class="reference external" href="http://faroutride.com">faroutride.com</a>. I bought their <a class="reference external" href="https://faroutride.com/store/wiring-diagram/">Wiring Guide and Tutorial</a> and found it very helpful even though they have a custom-built electrical system (opposed to our all-in-one system). They cover important safety points that I don’t cover in detail here, such as choosing wire gauge and fuse size for the 12V system. Learning about their system made the GZ less of a mysterious black box for me. Their guide was well worth the money for me (especially considering how much time and money they saved me on other projects).</p>
 </div>
-<div class="section" id="inputs-how-we-charge-this-thing">
-<h2>Inputs (how we charge this thing)<a class="headerlink" href="#inputs-how-we-charge-this-thing" title="Permalink to this headline">¶</a></h2>
+<section id="inputs-how-we-charge-this-thing">
+<h2>Inputs (how we charge this thing)<a class="headerlink" href="#inputs-how-we-charge-this-thing" title="Permalink to this headline">#</a></h2>
 <p>We can charge this by solar with the <a class="reference external" href="https://www.goalzero.com/shop/solar-panels/boulder-200-solar-panel-briefcase/">Goal Zero 200W solar panels</a>; using shore power; or using the vehicle alternator using the <a class="reference external" href="https://www.goalzero.com/shop/yeti-accessories/yeti-link-expansion-module/">Yeti Link vehicle integration kit</a> (see Yeti Link Car Mode on that page). Details on each of these charging mechanisms (with the exception of solar - that’s not installed yet) are presented in the following subsections.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>A safety modification was made to the vehicle integration kit for the X series. Do not buy or use older versions of this hardware!</p>
 </div>
-<div class="section" id="alternator-based-charging">
-<h3>Alternator-based charging<a class="headerlink" href="#alternator-based-charging" title="Permalink to this headline">¶</a></h3>
+<section id="alternator-based-charging">
+<h3>Alternator-based charging<a class="headerlink" href="#alternator-based-charging" title="Permalink to this headline">#</a></h3>
 <p>Parts:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.goalzero.com/shop/power-station-accessories/male-ec8-ring-terminal/">Male EC8 to Ring Terminal</a></p></li>
 <li><p><a class="reference external" href="https://www.goalzero.com/shop/accessories/ec8-12ft-extension-cable/">EC8 12FT Extension Cable</a></p></li>
 </ul>
-<div class="section" id="remove-seat-to-access-the-battery-compartment">
-<h4>Remove seat to access the battery compartment<a class="headerlink" href="#remove-seat-to-access-the-battery-compartment" title="Permalink to this headline">¶</a></h4>
+<section id="remove-seat-to-access-the-battery-compartment">
+<h4>Remove seat to access the battery compartment<a class="headerlink" href="#remove-seat-to-access-the-battery-compartment" title="Permalink to this headline">#</a></h4>
 <p>The battery is installed under the driver’s seat. Unusual, but it fits well, so I can’t complain.</p>
-<p><strong>Before removing the seat, unplug the wiring harness under the seat from the front.</strong> One #7 hex head screw holds the wiring harness in place under the driver seat. Unscrew that to loosen and unplug the wire harness (the screw shouldn’t come all the way out; <a class="reference internal" href="#wire-harness-1"><span class="std std-numref">Fig. 9</span></a>).</p>
-<div class="figure align-default" id="wire-harness-1">
+<p><strong>Before removing the seat, unplug the wiring harness under the seat from the front.</strong> One #7 hex head screw holds the wiring harness in place under the driver seat. Unscrew that to loosen and unplug the wire harness (the screw shouldn’t come all the way out; <a class="reference internal" href="#wire-harness-1"><span class="std std-numref">Fig. 17</span></a>).</p>
+<figure class="align-default" id="wire-harness-1">
 <img alt="_images/wire-harness-1.jpeg" src="_images/wire-harness-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 9 </span><span class="caption-text">View of driver seat wire harness after detaching.</span><a class="headerlink" href="#wire-harness-1" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 17 </span><span class="caption-text">View of driver seat wire harness after detaching.</span><a class="headerlink" href="#wire-harness-1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p>We have a swivel base installed. See the <a class="reference external" href="https://faroutride.com/swivels-review/">faroutride.com swivel seat review</a> to learn more about these (we have Scopema swivels on the driver and passenger seats and we love them). Ideally you would connect your Goal Zero to the battery while doing the driver swivel seat install, but we were waiting on the 3000X-compatible vehicle integration kit to be developed when we installed the driver swivel. Easy enough to remove the swivel though - this will be the same thing we need to do any time we access the vehicle battery directly (remember that there are jump start terminals under the hood).</p>
-<div class="section" id="factory-configuration">
-<h5>Factory configuration<a class="headerlink" href="#factory-configuration" title="Permalink to this headline">¶</a></h5>
+<section id="factory-configuration">
+<h5>Factory configuration<a class="headerlink" href="#factory-configuration" title="Permalink to this headline">#</a></h5>
 <p>If you don’t have a Swivel base installed, start with <a class="reference external" href="https://www.youtube.com/watch?v=0SsDbT-J8cU">Christopher Lum’s video on removing the driver seat to access the battery compartment</a>. If you’re not already familiar with Christopher’s channel and you are working on a Ford Transit passenger van, you’re about to discover one of the most useful educational resources around!</p>
-</div>
-<div class="section" id="scopema-swivel-base-configuration">
-<h5>Scopema swivel base configuration<a class="headerlink" href="#scopema-swivel-base-configuration" title="Permalink to this headline">¶</a></h5>
-<p>The swivel base stays with the seat when you take it off. Four 3/16” Allen bolts are used to remove the swivel base to access the battery compartment (<a class="reference internal" href="#scopema-screw-1"><span class="std std-numref">Fig. 10</span></a>). (If you have a passenger swivel installed already, it makes working on the battery compartment very convenient b/c you’ll have a nice spot to sit while you’re working.)</p>
-<div class="figure align-default" id="scopema-screw-1">
+</section>
+<section id="scopema-swivel-base-configuration">
+<h5>Scopema swivel base configuration<a class="headerlink" href="#scopema-swivel-base-configuration" title="Permalink to this headline">#</a></h5>
+<p>The swivel base stays with the seat when you take it off. Four 3/16” Allen bolts are used to remove the swivel base to access the battery compartment (<a class="reference internal" href="#scopema-screw-1"><span class="std std-numref">Fig. 18</span></a>). (If you have a passenger swivel installed already, it makes working on the battery compartment very convenient b/c you’ll have a nice spot to sit while you’re working.)</p>
+<figure class="align-default" id="scopema-screw-1">
 <img alt="_images/scopema-screw-1.jpeg" src="_images/scopema-screw-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 10 </span><span class="caption-text">One of the four screws that you’ll need to remove to deattach the Scopema driver swivel to access the battery.</span><a class="headerlink" href="#scopema-screw-1" title="Permalink to this image">¶</a></p>
-</div>
-</div>
-<div class="section" id="other-swivel-base-configurations">
-<h5>Other swivel base configurations<a class="headerlink" href="#other-swivel-base-configurations" title="Permalink to this headline">¶</a></h5>
+<figcaption>
+<p><span class="caption-number">Fig. 18 </span><span class="caption-text">One of the four screws that you’ll need to remove to deattach the Scopema driver swivel to access the battery.</span><a class="headerlink" href="#scopema-screw-1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="other-swivel-base-configurations">
+<h5>Other swivel base configurations<a class="headerlink" href="#other-swivel-base-configurations" title="Permalink to this headline">#</a></h5>
 <p>I’ve never installed other swivel bases, but if I imagine it’s easy to figure out how to take others off (especially if you installed it).</p>
-</div>
-</div>
-<div class="section" id="connect-to-battery-terminals-and-route-cable">
-<h4>Connect to battery terminals and route cable<a class="headerlink" href="#connect-to-battery-terminals-and-route-cable" title="Permalink to this headline">¶</a></h4>
+</section>
+</section>
+<section id="connect-to-battery-terminals-and-route-cable">
+<h4>Connect to battery terminals and route cable<a class="headerlink" href="#connect-to-battery-terminals-and-route-cable" title="Permalink to this headline">#</a></h4>
 <p>First, route the cable. I drilled a 1/2” hole through the rear plastic cover. Drill this hole from inside the battery compartment (or risk drilling into the metal framing). To pass the connector rings through, you’ll need to widen the hold a little after drilling - do that with a file, or just make a second hole. A bigger initial hole won’t fit (at least where I made it) due to the metal framing. Run the wire through the hole.</p>
-<div class="figure align-default" id="gz-battery-wire-port-1">
+<figure class="align-default" id="gz-battery-wire-port-1">
 <img alt="_images/gz-battery-wire-port-1.jpeg" src="_images/gz-battery-wire-port-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 11 </span><span class="caption-text">New port for routing <a class="reference external" href="https://www.goalzero.com/shop/power-station-accessories/male-ec8-ring-terminal/">Male EC8 to Ring Terminal</a>.</span><a class="headerlink" href="#gz-battery-wire-port-1" title="Permalink to this image">¶</a></p>
-</div>
-<p>Remove the #10 hex head nuts to connect rings to battery terminals (<a class="reference internal" href="#battery-terminal-1"><span class="std std-numref">Fig. 12</span></a>). Do this one terminal at a time, starting with the negative terminal. Obviously, be very careful when accessing the positive terminal in particular. If you create a path between the positive and negative terminals - especially if that path runs  up one arm and down the other with your heart in the middle - you’ll be sorry.</p>
-<div class="figure align-default" id="battery-terminal-1">
+<figcaption>
+<p><span class="caption-number">Fig. 19 </span><span class="caption-text">New port for routing <a class="reference external" href="https://www.goalzero.com/shop/power-station-accessories/male-ec8-ring-terminal/">Male EC8 to Ring Terminal</a>.</span><a class="headerlink" href="#gz-battery-wire-port-1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Remove the #10 hex head nuts to connect rings to battery terminals (<a class="reference internal" href="#battery-terminal-1"><span class="std std-numref">Fig. 20</span></a>). Do this one terminal at a time, starting with the negative terminal. Obviously, be very careful when accessing the positive terminal in particular. If you create a path between the positive and negative terminals - especially if that path runs  up one arm and down the other with your heart in the middle - you’ll be sorry.</p>
+<figure class="align-default" id="battery-terminal-1">
 <img alt="_images/battery-terminal-1.jpeg" src="_images/battery-terminal-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 12 </span><span class="caption-text">Negative battery terminal with ring connected.</span><a class="headerlink" href="#battery-terminal-1" title="Permalink to this image">¶</a></p>
-</div>
-</div>
-<div class="section" id="put-it-all-back-together">
-<h4>Put it all back together<a class="headerlink" href="#put-it-all-back-together" title="Permalink to this headline">¶</a></h4>
-<div class="figure align-default" id="battery-compartment-1">
+<figcaption>
+<p><span class="caption-number">Fig. 20 </span><span class="caption-text">Negative battery terminal with ring connected.</span><a class="headerlink" href="#battery-terminal-1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="put-it-all-back-together">
+<h4>Put it all back together<a class="headerlink" href="#put-it-all-back-together" title="Permalink to this headline">#</a></h4>
+<figure class="align-default" id="battery-compartment-1">
 <img alt="_images/battery-compartment-1.jpeg" src="_images/battery-compartment-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 13 </span><span class="caption-text">The battery compartment after putting it all back together. Note that the cable for our wire harness comes through a new custom hole in the top of our plastic battery cover to allow for the Scopema driver swivel. If you don’t have a driver swivel, you won’t need to route your wiring harness this way.</span><a class="headerlink" href="#battery-compartment-1" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 21 </span><span class="caption-text">The battery compartment after putting it all back together. Note that the cable for our wire harness comes through a new custom hole in the top of our plastic battery cover to allow for the Scopema driver swivel. If you don’t have a driver swivel, you won’t need to route your wiring harness this way.</span><a class="headerlink" href="#battery-compartment-1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p>Once it’s all back together, you can connect the EC8 12FT Extension Cable from the outside of the battery compartment. 🎉</p>
-</div>
-</div>
-<div class="section" id="shore-power">
-<h3>Shore power<a class="headerlink" href="#shore-power" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="shore-power">
+<h3>Shore power<a class="headerlink" href="#shore-power" title="Permalink to this headline">#</a></h3>
 <p>Parts:</p>
 <ul class="simple">
 <li><p>Power inlet</p></li>
 <li><p>Recessed Power Strip</p></li>
 <li><p>25’ heavy duty extension cord (for charging from shore power, and drawing from <a class="reference internal" href="#inverter"><span class="std std-ref">inverter</span></a> as needed while on the road)</p></li>
 </ul>
-<div class="figure align-default" id="inlet-1">
+<figure class="align-default" id="inlet-1">
 <img alt="_images/inlet-1.jpeg" src="_images/inlet-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 14 </span><span class="caption-text">The inlet allows us to charge from shore power by plugging into a typical 120V AC outlet (e.g., at home, a campgound, etc). See <a class="reference external" href="http://faroutride.com">faroutride.com</a> for install instructions.</span><a class="headerlink" href="#inlet-1" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 22 </span><span class="caption-text">The inlet allows us to charge from shore power by plugging into a typical 120V AC outlet (e.g., at home, a campgound, etc). See <a class="reference external" href="http://faroutride.com">faroutride.com</a> for install instructions.</span><a class="headerlink" href="#inlet-1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p>The one inlet splits to two outlets.</p>
 <p>The first of these (SH1) we use to charge the GZ unit.</p>
 <p>To the second of these (SH2) I daisy-chained two recessed power strips. This gives us one outlet in our kitchen which provides the AC to the fridge and two outlets in our bed-side cabinet. (Our fridge connects to both our shore power system and our 12V system. When connected to shore power, the fridge will draw from that instead of from the 12V system.)</p>
@@ -400,20 +662,20 @@
 </ol>
 </li>
 </ol>
-</div>
-<div class="section" id="solar">
-<h3>Solar<a class="headerlink" href="#solar" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="solar">
+<h3>Solar<a class="headerlink" href="#solar" title="Permalink to this headline">#</a></h3>
 <p>Parts:</p>
 <ul class="simple">
 <li><p>Goal Zero 200W solar panels</p></li>
 </ul>
 <p>Not installed yet, but connects directly to GZ. We’ll be installing a roof rack and mounting solar on that. Right now I pull the solar panels out when I need to charge by solar. It’s miserable, and they are a huge pain to travel with when they’re not mounted. Mounting these will be my next project, once my project bank account recovers enough for me to buy a roof rack.</p>
-</div>
-</div>
-<div class="section" id="outputs-how-we-discharge-this-thing">
-<h2>Outputs (how we discharge this thing)<a class="headerlink" href="#outputs-how-we-discharge-this-thing" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="v-system">
-<h3>12V system<a class="headerlink" href="#v-system" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="outputs-how-we-discharge-this-thing">
+<h2>Outputs (how we discharge this thing)<a class="headerlink" href="#outputs-how-we-discharge-this-thing" title="Permalink to this headline">#</a></h2>
+<section id="v-system">
+<h3>12V system<a class="headerlink" href="#v-system" title="Permalink to this headline">#</a></h3>
 <p>Parts:</p>
 <ul class="simple">
 <li><p>Ring terminals to Anderson connections - connects fuse-block to GZ</p></li>
@@ -422,7 +684,7 @@
 <li><p>12V DC loads (see <a class="reference external" href="https://faroutride.com/van-build/learn/electrical-system/">https://faroutride.com/van-build/learn/electrical-system/</a>)</p></li>
 <li><p>Fridge: we have a <a class="reference external" href="https://www.novakool.com/">Nova Kool</a> <a class="reference external" href="https://www.novakool.com/r3100-1">R3100</a> AC/DC - it runs great from the GZ, we couldn’t be happier with it</p></li>
 </ul>
-<p>12V fuse block (<a class="reference internal" href="#fuse-block-1"><span class="std std-numref">Fig. 15</span></a>) - numbers are etched down center of fuse block, they run left-to-right, top-to-bottom</p>
+<p>12V fuse block (<a class="reference internal" href="#fuse-block-1"><span class="std std-numref">Fig. 23</span></a>) - numbers are etched down center of fuse block, they run left-to-right, top-to-bottom</p>
 <ol class="simple">
 <li><p>Ceiling vent fan (10A fuse)</p></li>
 <li><p>Ceiling LEDs (3 total; runs into headliner from behind fridge; 2A fuse)</p></li>
@@ -437,28 +699,32 @@
 <li><p>Fridge (15A)</p></li>
 <li><p>Currently unused</p></li>
 </ol>
-<p>The fuse block mounts really nicely on the GZ battery compartment with velcro (<a class="reference internal" href="#fuse-block-2"><span class="std std-numref">Fig. 16</span></a>). If you want to mount it somewhere else, you’ll need longer Anderson connection wires.</p>
-<div class="figure align-default" id="fuse-block-1">
+<p>The fuse block mounts really nicely on the GZ battery compartment with velcro (<a class="reference internal" href="#fuse-block-2"><span class="std std-numref">Fig. 24</span></a>). If you want to mount it somewhere else, you’ll need longer Anderson connection wires.</p>
+<figure class="align-default" id="fuse-block-1">
 <img alt="_images/fuse-block-1.jpeg" src="_images/fuse-block-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 15 </span><span class="caption-text">12V fuse block, not fully wired. The fuse block cover is on the right. Labeling the wires with a Sharpie is helpful when routing wires, and to facilitate future maintenance that might require disconnecting wires from fuse block.</span><a class="headerlink" href="#fuse-block-1" title="Permalink to this image">¶</a></p>
-</div>
-<div class="figure align-default" id="fuse-block-2">
+<figcaption>
+<p><span class="caption-number">Fig. 23 </span><span class="caption-text">12V fuse block, not fully wired. The fuse block cover is on the right. Labeling the wires with a Sharpie is helpful when routing wires, and to facilitate future maintenance that might require disconnecting wires from fuse block.</span><a class="headerlink" href="#fuse-block-1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="fuse-block-2">
 <img alt="_images/fuse-block-2.jpeg" src="_images/fuse-block-2.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 16 </span><span class="caption-text">12V fuse block velcro’ed to GZ. (There’s some velcro on the front too - I used to have it mounted there, but the side ended up being more convenient for my final configuration.)</span><a class="headerlink" href="#fuse-block-2" title="Permalink to this image">¶</a></p>
-</div>
-<div class="section" id="v-system-loads">
-<h4>12V System Loads<a class="headerlink" href="#v-system-loads" title="Permalink to this headline">¶</a></h4>
+<figcaption>
+<p><span class="caption-number">Fig. 24 </span><span class="caption-text">12V fuse block velcro’ed to GZ. (There’s some velcro on the front too - I used to have it mounted there, but the side ended up being more convenient for my final configuration.)</span><a class="headerlink" href="#fuse-block-2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="v-system-loads">
+<h4>12V System Loads<a class="headerlink" href="#v-system-loads" title="Permalink to this headline">#</a></h4>
 <p>These photos give an idea of how I did the wiring in the headliner. I used a box cutter with a brand new blade to make cutouts for fixtures. It worked great. Pull the whole headliner out to work on if you have enough space. I have a rolling 4’x8’ workbench in my wood shop, which is convenient for working on this. Alternatively, a couple of saw horses and two 8 or 12 foot 2”x4”s should support it well too. Or just work on one section at a time.</p>
-<div class="figure align-default" id="v-loads-1">
+<figure class="align-default" id="v-loads-1">
 <img alt="_images/12v-loads-1.jpeg" src="_images/12v-loads-1.jpeg" />
-</div>
-<div class="figure align-default" id="v-loads-2">
+</figure>
+<figure class="align-default" id="v-loads-2">
 <img alt="_images/12v-loads-2.jpeg" src="_images/12v-loads-2.jpeg" />
-</div>
-</div>
-</div>
-<div class="section" id="v-ac-inverter">
-<span id="inverter"></span><h3>120V AC Inverter<a class="headerlink" href="#v-ac-inverter" title="Permalink to this headline">¶</a></h3>
+</figure>
+</section>
+</section>
+<section id="v-ac-inverter">
+<span id="inverter"></span><h3>120V AC Inverter<a class="headerlink" href="#v-ac-inverter" title="Permalink to this headline">#</a></h3>
 <p>Parts:</p>
 <ul class="simple">
 <li><p>Recessed Power Strip</p></li>
@@ -482,37 +748,43 @@
 </li>
 <li><p>GZAC2: open</p></li>
 </ol>
-</div>
-<div class="section" id="exterior-lighting">
-<h3>Exterior lighting<a class="headerlink" href="#exterior-lighting" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="exterior-lighting">
+<h3>Exterior lighting<a class="headerlink" href="#exterior-lighting" title="Permalink to this headline">#</a></h3>
 <p>We’re going to experiment with the <a class="reference external" href="https://www.goalzero.com/shop/yeti-accessories/light-a-life-350-led-light/">Goal Zero Light-A-Life 350 LED Lights</a> for outdoor lighting. These are nice little lights, and we used them for internal lights before installing our recessed lights (they’re a little clunky for interior use, but they are versatile with hanging and magnetic options for mounting and two brightness levels). They also chain together, which is convenient. We’d like to be able to connect these through a port of some sort on the outside of the van, maybe when we run wires for the solar. I’ll update this if I figure that out, and once we have a little more experience with these lights.</p>
-</div>
-</div>
-<div class="section" id="mounting">
-<h2>Mounting<a class="headerlink" href="#mounting" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+<section id="mounting">
+<h2>Mounting<a class="headerlink" href="#mounting" title="Permalink to this headline">#</a></h2>
 <p>We mounted the GZ to its 3/4” plywood shelf by using the nuts built-in to the bottom of the GZ unit. I first figured out the hole pattern on a piece of scrap wood, and then used that as a template for the drilling the holes on the final shelf. Here’s a couple of views of the unit mounted to the scrap wood.</p>
-<div class="figure align-default" id="gz-mount-1">
+<figure class="align-default" id="gz-mount-1">
 <img alt="_images/gz-mount-1.jpeg" src="_images/gz-mount-1.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 17 </span><span class="caption-text">GZ mounted to work cart (side-view).</span><a class="headerlink" href="#gz-mount-1" title="Permalink to this image">¶</a></p>
-</div>
-<div class="figure align-default" id="gz-mount-2">
+<figcaption>
+<p><span class="caption-number">Fig. 25 </span><span class="caption-text">GZ mounted to work cart (side-view).</span><a class="headerlink" href="#gz-mount-1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="gz-mount-2">
 <img alt="_images/gz-mount-2.jpeg" src="_images/gz-mount-2.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 18 </span><span class="caption-text">GZ mounted to work cart (bottom-view). The eye bolts let me tie it down if needed.</span><a class="headerlink" href="#gz-mount-2" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 26 </span><span class="caption-text">GZ mounted to work cart (bottom-view). The eye bolts let me tie it down if needed.</span><a class="headerlink" href="#gz-mount-2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p>I also put some casters on the scrap wood to make a little cart for the unit to use while I was doing the install. This unit is heavy so I found it convenient to have a little cart for it. Plus it made me feel like I had a little droid to hang out with while I working, so that’s a bonus. I had the casters on-hand already, and had already drilled the holes to test my hole pattern. I wouldn’t have built this cart just for its own purpose, but I’m glad I have it.</p>
-<div class="figure align-default" id="gz-mount-3">
+<figure class="align-default" id="gz-mount-3">
 <img alt="_images/gz-mount-3.jpeg" src="_images/gz-mount-3.jpeg" />
-<p class="caption"><span class="caption-number">Fig. 19 </span><span class="caption-text">GZ-PO (i.e., GZ mounted to work cart).</span><a class="headerlink" href="#gz-mount-3" title="Permalink to this image">¶</a></p>
-</div>
-</div>
-<div class="section" id="system-controls">
-<h2>System controls<a class="headerlink" href="#system-controls" title="Permalink to this headline">¶</a></h2>
+<figcaption>
+<p><span class="caption-number">Fig. 27 </span><span class="caption-text">GZ-PO (i.e., GZ mounted to work cart).</span><a class="headerlink" href="#gz-mount-3" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="system-controls">
+<h2>System controls<a class="headerlink" href="#system-controls" title="Permalink to this headline">#</a></h2>
 <p>You can connect to the GZ by wifi or bluetooth with the GZ app. It seems to work reasonably well so far. This allows you to monitor input and loads, as well as turn systems on and off. Pretty cool!</p>
-<div class="figure align-default" id="gz-app-1">
+<figure class="align-default" id="gz-app-1">
 <a class="reference internal image-reference" href="_images/gz-app-1.jpeg"><img alt="_images/gz-app-1.jpeg" src="_images/gz-app-1.jpeg" style="height: 400px;" /></a>
-</div>
-</div>
-</div>
+</figure>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -536,44 +808,48 @@
 
               </div>
               
-        
-        <div class='prev-next-bottom'>
-            
-    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">Open Van</a>
-    <a class='right-next' id="next-link" href="vent-fan.html" title="next page">Vent fan</a>
-
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="garage.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Garage</p>
         </div>
-        
+    </a>
+    <a class='right-next' id="next-link" href="vent-fan.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Vent fan</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
         </div>
     </div>
-    <footer class="footer mt-5 mt-md-0">
-    <div class="container">
-      <p>
-        
-          By Townsite Urban Farm<br/>
-        
-            &copy; Copyright 2021.<br/>
-      </p>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Greg Caporaso<br/>
+  
+      &copy; Copyright 2021-2023.<br/>
+</p>
+        </footer>
     </div>
-  </footer>
-</main>
+    
+</div>
 
 
       </div>
     </div>
   
-  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
 
-  
-<script async="" src="https://www.google-analytics.com/analytics.js"></script>
-<script>
-                        window.ga = window.ga || function () {
-                            (ga.q = ga.q || []).push(arguments) };
-                        ga.l = +new Date;
-                        ga('create', 'UA-191434368-1', 'auto');
-                        ga('set', 'anonymizeIp', true);
-                        ga('send', 'pageview');
-                    </script>
 
   </body>
 </html>

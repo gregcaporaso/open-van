@@ -1,0 +1,528 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Ceiling &#8212; Open Van</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Floor" href="floor.html" />
+    <link rel="prev" title="Fridge and fridge cabinet" href="fridge.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+                        window.ga = window.ga || function () {
+                            (ga.q = ga.q || []).push(arguments) };
+                        ga.l = +new Date;
+                        ga('create', 'UA-191434368-1', 'auto');
+                        ga('set', 'anonymizeIp', true);
+                        ga('send', 'pageview');
+                    </script>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Open Van</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Open Van
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="pre-history.html">
+   Pre-history
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="bed.html">
+   Bed
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="garage.html">
+   Garage
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="gz-electrical.html">
+   Goal Zero-based second battery system
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="vent-fan.html">
+   Vent fan
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="roof.html">
+   Roof rack and solar panel
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="fridge.html">
+   Fridge and fridge cabinet
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Ceiling
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="floor.html">
+   Floor
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="bathroom.html">
+   Toilet cabinet
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="water.html">
+   Water tank
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="heater.html">
+   Secondary heater
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="adventures.html">
+   Adventures in the van
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/ceiling.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#insulation">
+   Insulation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#large-eye-hooks">
+   Large eye hooks
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#small-eye-hooks-good-for-really-light-stuff">
+   Small eye hooks (good for really light stuff)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#fan-trim">
+   Fan trim
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Ceiling</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#insulation">
+   Insulation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#large-eye-hooks">
+   Large eye hooks
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#small-eye-hooks-good-for-really-light-stuff">
+   Small eye hooks (good for really light stuff)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#fan-trim">
+   Fan trim
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="ceiling">
+<span id="id1"></span><h1>Ceiling<a class="headerlink" href="#ceiling" title="Permalink to this headline">#</a></h1>
+<section id="insulation">
+<h2>Insulation<a class="headerlink" href="#insulation" title="Permalink to this headline">#</a></h2>
+<figure class="align-default" id="insulation-1">
+<img alt="_images/insulation-1.jpeg" src="_images/insulation-1.jpeg" />
+<figcaption>
+<p><span class="caption-number">Fig. 57 </span><span class="caption-text">…</span><a class="headerlink" href="#insulation-1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>This document illustrates how I installed eye hooks (of two different sizes) in the ceiling of the van. We use the big ones to mount <a class="reference external" href="https://amzn.to/3qM9cbM">bungee netting</a> on the ceiling and to hold the headliner in place (in place of the plastic plugs that initially held it). We use the little ones to hold light things - they’re handy, but not mission critical by any means.</p>
+</section>
+<section id="large-eye-hooks">
+<h2>Large eye hooks<a class="headerlink" href="#large-eye-hooks" title="Permalink to this headline">#</a></h2>
+<p>Over our bed we store our window covers flat, as well as little things we want access to at might (e.g., glasses). This system works well as long as you don’t store anything too heavy in the netting (otherwise it sags too much). Ultimately I might try nylon webbing, or something that won’t stretch and sag quite as much, but for now it’s working well.</p>
+<p>The anchor points for the bungee netting are rivnuts that are installed where the plastic plugs that held the headliner in place were. There are eight of these total holding the headliner up, and even though I only use the back four for the bungee netting, installing rivnuts, big washers, and eye hooks is great for holding the headliner up, and eye hooks never hurt to have around for hanging things. Since they’re mounted into the body of the van, they’re really sturdy.</p>
+<p>Headliner rivnut sizes front to back:
+1/4-20 (front two)
+M5
+M5
+M5, required tiny drill out</p>
+<figure class="align-default" id="anchor-point-1">
+<img alt="_images/anchor-point-1.jpeg" src="_images/anchor-point-1.jpeg" />
+<figcaption>
+<p><span class="caption-number">Fig. 58 </span><span class="caption-text">…</span><a class="headerlink" href="#anchor-point-1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="anchor-point-2">
+<img alt="_images/anchor-point-2.jpeg" src="_images/anchor-point-2.jpeg" />
+<figcaption>
+<p><span class="caption-number">Fig. 59 </span><span class="caption-text">…</span><a class="headerlink" href="#anchor-point-2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="anchor-point-3">
+<img alt="_images/anchor-point-3.jpeg" src="_images/anchor-point-3.jpeg" />
+<figcaption>
+<p><span class="caption-number">Fig. 60 </span><span class="caption-text">…</span><a class="headerlink" href="#anchor-point-3" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="small-eye-hooks-good-for-really-light-stuff">
+<h2>Small eye hooks (good for really light stuff)<a class="headerlink" href="#small-eye-hooks-good-for-really-light-stuff" title="Permalink to this headline">#</a></h2>
+<p>To have a place to hang little stuff (like van keys), I installed small eye hooks around the headliner. I did this by making a “headliner sandwich” using an eye hook, two one-inch OD washers, and a plastic drywall anchor. I don’t know how much weight each of these holds, but they feel pretty darn sturdy.</p>
+<p>The approach I took can only be applied while you have access to both sides of the headliner. So if you have it off to install insulation, lighting, etc., that’s the time to install these. Before taking the headliner off, I marked exactly where I wanted all of the mount points with little bits of painters tape (which doesn’t leave a sticky residue behind). Once the headliner is off, orientation/etc can get confusing so I planned where everything went while it was still up.</p>
+<p>It’s easier to explain with photos, so here goes…</p>
+<figure class="align-default" id="headliner-mount-1">
+<img alt="_images/mount-1.jpeg" src="_images/mount-1.jpeg" />
+<figcaption>
+<p><span class="caption-number">Fig. 61 </span><span class="caption-text">…</span><a class="headerlink" href="#headliner-mount-1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="headliner-mount-2">
+<img alt="_images/mount-2.jpeg" src="_images/mount-2.jpeg" />
+<figcaption>
+<p><span class="caption-number">Fig. 62 </span><span class="caption-text">…</span><a class="headerlink" href="#headliner-mount-2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="fan-trim">
+<h2>Fan trim<a class="headerlink" href="#fan-trim" title="Permalink to this headline">#</a></h2>
+<figure class="align-default" id="fan-trim-1">
+<img alt="_images/fan-trim-1.jpeg" src="_images/fan-trim-1.jpeg" />
+<figcaption>
+<p><span class="caption-number">Fig. 63 </span><span class="caption-text">…</span><a class="headerlink" href="#fan-trim-1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="fridge.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Fridge and fridge cabinet</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="floor.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Floor</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Greg Caporaso<br/>
+  
+      &copy; Copyright 2021-2023.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
