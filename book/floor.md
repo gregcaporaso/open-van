@@ -21,12 +21,12 @@ name: w-bench
 ---
 name: bench-track-open
 ---
-...
+Tracks for bench seat exposed.
 ```
 
 ```{figure} images/floor/floor-2.jpeg
 ---
 name: bench-track-closed
 ---
-...
+Tracks for bench seat covered.
 ```
